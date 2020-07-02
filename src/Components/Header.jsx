@@ -15,18 +15,9 @@ function Header(){
           <span>Menu</span>
           <i className="fa fa-bars"></i>
         </button>
-        <div className="collapse navbar-collapse" id="top">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
-            <li className="nav-item"><a className="nav-link" href="/events">Events</a></li>
-            <li className="nav-item"><a className="nav-link" href="/members">Members</a></li>
-            <li className="nav-item"><a className="nav-link" href="/alumini">Alumni</a></li>
-            <li className="nav-item"><a className="nav-link" href="/about">About</a></li>
-          </ul>
-        </div>
+        <Navigation />
       </nav>
       <h1 className="heading">ECE SOCIETY, BIT MESRA</h1>
-      <Navigation />
     </div>
     </>
   );
