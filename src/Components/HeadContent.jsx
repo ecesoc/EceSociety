@@ -4,8 +4,8 @@ import React from "react";
 function HeadContent(prop){
   return (
     <header>
-    <h1>{prop.page}</h1>
-    <h4><em>"{prop.quote}"</em></h4>
+    <p>{prop.page}</p>
+    <p className="quote"><em>"{prop.quote}"</em></p>
     </header>
   )
 }

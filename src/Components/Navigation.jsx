@@ -6,6 +6,7 @@ import Member from "./members/Members";
 import Events from "./Events/Event";
 import About from "./About/About";
 import HeadContent from "./HeadContent";
+import Home from "./Home/Home";
 
 
 function Navigation(){
@@ -14,15 +15,15 @@ function Navigation(){
     <nav className="navbar fixed-top navbar-expand-lg">
     <img className="logo" src="images/logo_fav.png" alt="ecesoc logo" />
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#top" aria-controls="top" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+        <i className="navbar-toggler-icon fa fa-bars icon"></i>
       </button>
       <div className="collapse navbar-collapse" id="top">
     <ul className="navbar-nav ml-auto">
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/Events">Events</Link></li>
-      <li><Link to="/members">Executive Body</Link></li>
-      <li><Link to="/Alumni">Alumni</Link></li>
-      <li><Link to="/About">About Us</Link></li>
+      <Link to="/"><li>Home</li></Link>
+      <Link to="/Events"><li>Events</li></Link>
+      <Link to="/members"><li>Executive Body</li></Link>
+      <Link to="/Alumni"><li>Alumni</li></Link>
+      <Link to="/About"><li>About Us</li></Link>
     </ul>
     </div>
     </nav>
@@ -30,8 +31,8 @@ function Navigation(){
     <Switch>
 
     <Route exact path="/">
-    <HeadContent page="Home" quote="Other kids wen out and beat each other up or played cricket. and I built Electronics" />
-    <h2>This is home page</h2>
+    <HeadContent page="Home" quote="Other kids went out and beat each other up or played cricket, and I built Electronics" />
+    <Home />
     </Route>
 
     <Route path="/Events">

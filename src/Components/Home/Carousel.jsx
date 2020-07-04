@@ -3,27 +3,28 @@ import React from "react";
 
 function Carousel(){
   return (
-    <div id="homepic" class="carousel slide" data-ride="carousel" data-interval="2500">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="homeimg" src="images/random/home1.jpg" alt="img">
+    <div id="homepic" className="carousel slide" data-ride="carousel" data-interval="2500">
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img className="homeimg" src="images/random/home1.jpg" alt="img" />
         </div>
-        <div class="carousel-item">
-          <img class="homeimg" src="images/random/home2.jpg" alt="img">
+        <div className="carousel-item">
+          <img className="homeimg" src="images/random/home2.jpg" alt="img" />
         </div>
-        <div class="carousel-item">
-          <img class="homeimg" src="images/random/home3.jpg" alt="img">
+        <div className="carousel-item">
+          <img className="homeimg" src="images/random/home3.jpg" alt="img" />
         </div>
-        <div class="carousel-item">
-          <img class="homeimg" src="images/random/home4.jpg" alt="img">
+        <div className="carousel-item">
+          <img className="homeimg" src="images/random/home4.jpg" alt="img" />
         </div>
       </div>
-      <a class="carousel-control-prev" href="#homepic" role="button" data-slide="prev">
-        <span> < </span>
+      <a className="carousel-control-prev ctr" href="#homepic" role="button" data-slide="prev">
+        &lt;
         </a>
-        <a class="carousel-control-next" href="#homepic" role="button" data-slide="next">
-            <span> > </span>
+        <a className="carousel-control-next ctr" href="#homepic" role="button" data-slide="next">
+         &gt;
       </a>
+      <br />
     </div>
   )
 }

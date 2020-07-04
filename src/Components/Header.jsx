@@ -5,11 +5,9 @@ import Navigation from "./Navigation";
 
 function Header(){
   return (
-    <>
     <div className="header-page">
         <Navigation />
     </div>
-    </>
   );
 };
 

@@ -4,12 +4,13 @@ import React from "react";
 import alumniDetails from "./alumniDetails";
 import Image from "../Image";
 
-function alumnus(info,index){
-  const imgAddress="images/Alumini/" + info.name +".jpg";
+function Alum(info){
   return (
     <div className="row">
       <div className="col-lg-5 col-md-12 alumnus-pic">
-         <Image key={index} src={imgAddress} />
+         <Image src={info.src} />
+         <br />
+         <br />
       </div>
       <div className="col-lg-5 col-md-12 alumnus-content">
       <h3><span className="alumini-name">Name:</span> {info.name}<span className="alumni-linkedin">
@@ -25,6 +26,13 @@ function alumnus(info,index){
     <hr />
     <br />
   </div>
+  )
+}
+
+function alumnus(info,index){
+  const imgAddress="images/Alumini/" + info.name +".jpg";
+  return (
+    <Alum key={index} src={imgAddress} linkedin={info.linkedin} company={info.company} batch={info.batch} name={info.name} />
 )}
 
 function Alumni(){

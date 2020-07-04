@@ -3,7 +3,6 @@ body{
   font-size: 16px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  line-height: 1.8em;
   color: #666;
 }
 
@@ -17,16 +16,57 @@ hr{
   background-color:#666;
 }
 
+p{
+  padding-left: 3%;
+}
+
 .row, .post-title{
   margin: 3% 2% 0 3%;
 }
 
 /*********** HOME PAGE*********/
-.bgimg{
-  background-image: url("images/header3.png");
+.bimg0 , .bimg1 , .bimg2 , .bimg3{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  min-height: 350px;
+  opacity: 0.7;
+}
+
+.bimg0{
+  background-image: url("../images/background/tech1.jpg");
+}
+
+.bimg1{
+  background-image: url("../images/background/tech2.jpg");
+}
+
+.bimg2{
+  background-image: url("../images/background/tech3.jpg");
+}
+
+.bimg3{
+  background-image: url("../images/background/tech4.jpg");
+}
+
+.homeimg{
+  height: 50%;
+  width: 50%;
+}
+
+#homepic{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.about-content{
+  font-size: 2rem;
+}
+
+.ctr{
+  font-size: 3rem;
+  font-weight: 200;
+  color: #666;
 }
 
 /*********** ALUMNI PAGE *********/
@@ -79,14 +119,28 @@ hr{
 
 .navbar-nav li{
   margin: 10px;
+  color: #f4f4f4;
+}
+
+.navbar-nav li:hover{
+  color: grey;
 }
 
 header{
   background-color: #191818;
   text-align: center;
-  padding:100px 0 50px 0;
+  padding:110px 0 50px 0;
   color: #f4f4f4;
+  font-weight: bold;
+  font-size: 4.7rem;
+  line-height: 5rem;
 }
+
+.quote{
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
 
 /*********** FOOTER *********/
 
