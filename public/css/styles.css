@@ -1,7 +1,111 @@
+body{
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+img:hover{
+  transform: scale(1.2);
+}
+
+hr{
+  height: 1px;
+  width: 65%;
+  background-color:#666;
+}
+
+.row, .post-title{
+  margin: 3% 2% 0 3%;
+}
+
+/*********** HOME PAGE*********/
+.bgimg{
+  background-image: url("images/header3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 /*********** ALUMNI PAGE *********/
 
-.pic{
+.person-pic{
   border-radius: 100%;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+}
+
+.alumnus-pic{
+  text-align: center;
+}
+
+.alumni-linkedin{
+  float: right;
+  font-size: 3rem;
+}
+
+/*********** EXECUTIVE BODY PAGE *********/
+
+/*********** EVENTS PAGE *********/
+.event-pic{
+  width:80%;
+  height:80%;
+}
+
+.events-pic{
+  text-align: center;
+}
+
+.col-lg-4{
+  text-align: center;
+}
+
+/*********** HEADER *********/
+.logo{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin-left: 3%;
+}
+
+.navbar {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 10px;
+    background-color: #191818;
+}
+
+.navbar-nav li{
+  margin: 10px;
+}
+
+header{
+  background-color: #191818;
+  text-align: center;
+  padding:100px 0 50px 0;
+  color: #f4f4f4;
+}
+
+/*********** FOOTER *********/
+
+footer{
+  bottom: 0;
+  text-align: center;
+  background-color: #f4f4f4;
+  color:#666;
+  padding: 20px 0 1px 0;
+}
+
+.icon{
+  font-size: 3rem;
+  padding: 2px 10px;
+  color:#666;
+}
+
+/*********** ABOUT US *********/
+.what-we-do{
+  padding: 10px 0 20px 3%;
+  font-size: 1.5rem;
 }

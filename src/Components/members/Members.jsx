@@ -3,15 +3,16 @@ import React from "react";
 import members from "./MemberDetails";
 import Image from "../Image";
 
-function names(name){
-  const imgAddress="images/members" + name.name;
+function names(name,index){
+  const imgAddress="images/members/" + name +".jpg";
   return (
-    <div className="col-md-3 col-sm-12">
+    <div className="col-lg-4 col-md-12">
         <div className="pic">
-          <Image src={imgAddress} />
+          <Image key={index} src={imgAddress} />
         </div>
+        <br />
         <div className="member-name">
-          <p>{name.name}</p>
+          <h4>{name}</h4>
         </div>
     </div>
   );
@@ -22,19 +23,20 @@ function member(item){
     <div>
     <h3 className="post-title">{item.post}</h3>
     <br />
-      <div className="row">
+    <div className="row">
       {item.member.map(names)}
     </div>
-
-    <hr>
-
+    <br />
+    <hr />
+    <br />
+    </div>
   )
-}
+};
 
-function Member(){
-  return(
+function Members(){
+  return (
     members.map(member)
   );
 }
 
-export default Member;
+export default Members;

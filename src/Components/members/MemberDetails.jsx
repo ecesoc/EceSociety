@@ -1,61 +1,28 @@
 //jshint esversion:6
-import React from "react";
 
-const members=[{
+const members=[
+  {
   post:"President",
-  member:[{
-    name:"Tanmay Gupta"
-  }]
+  member:["Tanmay Gupta"]
 },
 {
   post:"Vice President",
-  member:[{
-    name:"Pratik Kumar"
-  },
-{
-  name:"Dev Gupta"
-}]
+  member:["Pratik Kumar","Dev Gupta"]
 },
 {
   post:"Technical Head",
-  member:[{
-    name:"Himanshu Bhushan"
-  },
-{
-  name:"Kushal Gella"
-},
-{
-  name:"Sayonee Mohapatra"
-}]
+  member:["Himanshu Bhushan","Kushal Gella","Sayonee Mohapatra"]
 },
 {
   post:"Program Director",
-  member:[{
-    name:"Aditi Aparna"
-  },{
-    name:"Pradipta Ray"
-  },{
-    name:"Shashank Shekhar"
-  }]
+  member:["Aditi Aparna","Pradipta Ray","Shashank Shekhar"]
 },
 {
   post:"Workshop Head",
-  member:[{
-    name:"Shreshth Gupta"
-  },{
-    name:"Pratyush Agarwal"
-  },
-{
-  name:"Raghav Charan"
-}]
+  member:["Shreshth Gupta","Pratyush Agarwal","Raghav Charan"]
 },{
   post:"Event Head",
-  member:[{
-    name:"Vivek Basant"
-  },{
-    name:"Bhavya"
-  }
-]}
-];
+  member:["Vivek Basant","Bhavya"]
+}];
 
 export default members;
