@@ -30,7 +30,7 @@ function Alum(info){
 }
 
 function alumnus(info,index){
-  const imgAddress="../../public/images/Alumini/" + info.name +".jpg";
+  const imgAddress="images/Alumini/" + info.name +".jpg";
   return (
     <Alum key={index} src={imgAddress} linkedin={info.linkedin} company={info.company} batch={info.batch} name={info.name} />
 )}
