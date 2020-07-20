@@ -11,7 +11,7 @@ import Home from "./Home/Home";
 
 function Navigation(){
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/EceSociety">
     <nav className="navbar fixed-top navbar-expand-lg">
     <img className="logo" src="images/logo_fav.png" alt="ecesoc logo" />
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#top" aria-controls="top" aria-expanded="false" aria-label="Toggle navigation">
