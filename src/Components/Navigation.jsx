@@ -43,7 +43,6 @@ function Navigation(){
     <Route path="/members">
     <HeadContent page="Executive Body" quote="Talent wins games, but teamwork and intelligence win championships." />
     <Member />
-
     </Route>
 
     <Route path="/Alumni">

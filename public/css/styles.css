@@ -6,6 +6,10 @@ body{
   color: #666;
 }
 
+img{
+  transition: all 1s;
+}
+
 img:hover{
   transform: scale(1.2);
 }
@@ -23,6 +27,65 @@ p{
 .row, .post-title{
   margin: 3% 2% 0 3%;
 }
+
+
+/*********** HEADER *********/
+.logo{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin-left: 3%;
+}
+
+.navbar {
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 10px;
+    background-color: #191818;
+}
+
+.navbar-nav li{
+  margin: 10px;
+  color: #f4f4f4;
+}
+
+.navbar-nav li:hover{
+  color: grey;
+  text-decoration: underline #f4f4f4;
+}
+
+header{
+  background-color: #191818;
+  text-align: center;
+  padding:110px 0 50px 0;
+  color: #f4f4f4;
+  font-weight: bold;
+  font-size: 4.7rem;
+  line-height: 5rem;
+}
+
+.quote{
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+
+/*********** FOOTER *********/
+
+footer{
+  bottom: 0;
+  text-align: center;
+  background-color: #f4f4f4;
+  color:#666;
+  padding: 20px 0 1px 0;
+}
+
+.icon{
+  font-size: 3rem;
+  padding: 2px 10px;
+  color:#666;
+}
+
 
 /*********** HOME PAGE*********/
 .bimg0 , .bimg1 , .bimg2 , .bimg3{
@@ -88,6 +151,18 @@ p{
 
 /*********** EXECUTIVE BODY PAGE *********/
 
+.executive-Body span{
+  font-size: 1.5rem;
+  display: inline-flex;
+  margin-left: 2.6%;
+  margin-top: 3%;
+  color: red;
+}
+
+.changeMember ,.executive-Body span:hover {
+  border-bottom: 2px solid red;
+}
+
 /*********** EVENTS PAGE *********/
 .event-pic{
   width:80%;
@@ -100,62 +175,6 @@ p{
 
 .col-lg-4{
   text-align: center;
-}
-
-/*********** HEADER *********/
-.logo{
-  height: 80px;
-  width: 80px;
-  border-radius: 100%;
-  margin-left: 3%;
-}
-
-.navbar {
-    font-weight: 800;
-    font-family: 'Montserrat', sans-serif;
-    padding-right: 10px;
-    background-color: #191818;
-}
-
-.navbar-nav li{
-  margin: 10px;
-  color: #f4f4f4;
-}
-
-.navbar-nav li:hover{
-  color: grey;
-}
-
-header{
-  background-color: #191818;
-  text-align: center;
-  padding:110px 0 50px 0;
-  color: #f4f4f4;
-  font-weight: bold;
-  font-size: 4.7rem;
-  line-height: 5rem;
-}
-
-.quote{
-  font-size: 2rem;
-  line-height: 4rem;
-}
-
-
-/*********** FOOTER *********/
-
-footer{
-  bottom: 0;
-  text-align: center;
-  background-color: #f4f4f4;
-  color:#666;
-  padding: 20px 0 1px 0;
-}
-
-.icon{
-  font-size: 3rem;
-  padding: 2px 10px;
-  color:#666;
 }
 
 /*********** ABOUT US *********/

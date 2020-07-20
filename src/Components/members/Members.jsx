@@ -1,6 +1,6 @@
 //jshint esversion:6
-import React from "react";
-import members from "./MemberDetails";
+import React,{ useState} from "react";
+import {membersk17, membersk18} from "./MemberDetails";
 import Image from "../Image";
 
 function names(name,index){
@@ -34,8 +34,23 @@ function member(item){
 };
 
 function Members(){
+  function changeToK17(){
+    setYear(true);
+  }
+
+  function changeToK18(){
+    setYear(false);
+  }
+
+  let [isk17, setYear]=useState(true);
+  const k17=membersk17.map(member);
+  const k18=membersk18.map(member);
   return (
-    members.map(member)
+    <div className="executive-Body">
+    <span onClick={changeToK17} className={isk17 && "changeMember"}>Executive Body k17</span>
+    <span onClick={changeToK18} className={!isk17 && "changeMember"}>Executive Body k18</span>
+    {isk17?k17:k18}
+    </div>
   );
 }
 

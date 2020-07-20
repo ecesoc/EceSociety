@@ -1,6 +1,6 @@
 //jshint esversion:6
 
-const members=[
+const membersk17=[
   {
   post:"President",
   member:["Tanmay Gupta"]
@@ -25,4 +25,32 @@ const members=[
   member:["Vivek Basant","Bhavya"]
 }];
 
-export default members;
+const membersk18=[
+  {
+  post:"General Secretary",
+  member:["Shekhar Satyakar","Harsh Malpani"]
+},
+{
+  post:"Treasurer",
+  member:["MD Ifham Shakil"]
+},
+{
+  post:"Technical Coordinator",
+  member:["Sanidhya Singh","Rishi Jain","Anil Singh Negi"]
+},
+{
+  post:"Workshop Coordinator",
+  member:["Sanyam Jain","Sankalp Pandey","Ritik Garg"]
+},
+{
+  post:"Event Coordinator",
+  member:["Shyam Pat Singhania","Adarsh Prakash Pandey","Puneet Arora"]
+},{
+  post:"Design Head",
+  member:["Vidya Sagarika Panna","Namrata Marandi"]
+},{
+  post:"Content & Publicity Head",
+  member:["Shaswat Shrivastava"]
+}];
+
+export {membersk17 , membersk18};
