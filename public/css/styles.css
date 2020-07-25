@@ -16,6 +16,7 @@ hr{
   height: 1px;
   width: 65%;
   background-color:#666;
+  margin:10px auto;
 }
 
 p{
@@ -47,6 +48,11 @@ p{
   color: #f4f4f4;
 }
 
+nav button{
+  color:#f4f4f4;
+  font-weight: bolder;
+}
+
 .navbar-nav li:hover{
   color: grey;
   text-decoration: underline #f4f4f4;
@@ -55,7 +61,7 @@ p{
 header{
   background-color: #191818;
   text-align: center;
-  padding:110px 0 50px 0;
+  padding:  6rem 0 1rem 0;
   color: #f4f4f4;
   font-weight: bold;
   font-size: 4.7rem;
