@@ -51,6 +51,9 @@ const membersk18=[
 },{
   post:"Content & Publicity Head",
   member:["Shaswat Shrivastava"]
+},{
+  post:"Our Other Members",
+  member:["Shubhankar Handa","Prishiyas Parag","Vaibhav Gupta"]
 }];
 
 export {membersk17 , membersk18};

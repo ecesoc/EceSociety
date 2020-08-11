@@ -1,37 +1,25 @@
 //jshint esversion:6
 //jshint esversion:9
-import React from "react";
-import eventDetails from "./EventDetails";
-import {Eventpic} from "../Image";
+import React,{useState} from "react";
+import OngoingEvents from "./ongoingEvents";
+import UpcomingEvents from "./upcomingEvents";
+import PastEvents from "./pastEvents";
 
-function EachEvent({participants,description,imgAddress}){
-  return(
-    <div className="row">
-      <div className="col-lg-5 col-md-10 events-pic">
-      <br />
-        <Eventpic src={imgAddress} />
-      </div>
-      <div className="col-lg-7 col-md-10">
-        <br />
-        <h3>Participants: {participants}</h3>
-        <h3>Description :</h3>
-        <h5><em>{description}</em></h5>
-      </div>
-      <hr />
-    </div>
-  )
-}
-
-function eventList(event,index){
-const imgAddress="images/events/"+event.src+".jpg";
-  return(
-    <EachEvent key={index} imgAddress={imgAddress} participants={event.Participants} description={event.Description} />
-  )
-}
 
 function Events(){
+  let [event_Held,setEvent]=useState("P");
+  let changeEvent_P= ()=>setEvent("P");
+  let changeEvent_O= ()=>setEvent("O");
+  let changeEvent_U= ()=>setEvent("U");
   return (
-    eventDetails.map(eventList)
+    <div className="event-List">
+    <span onClick={changeEvent_U} className={event_Held==="U"&&"changeEvent"}>Upcoming Events</span>
+    <span onClick={changeEvent_O} className={event_Held==="O"&&"changeEvent"}>Ongoing Events</span>
+    <span onClick={changeEvent_P} className={event_Held==="P"&&"changeEvent"}>Past Events</span>
+    {event_Held==="U"&&<UpcomingEvents />}
+    {event_Held==="O"&&<OngoingEvents />}
+    {event_Held==="P"&&<PastEvents />}
+    </div>
 )}
 
 export default Events

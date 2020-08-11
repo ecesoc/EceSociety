@@ -1,6 +1,6 @@
 //jshint esversion:6
 
-const eventDetails=[{
+const pastEvents=[{
   Participants:"150",
   src:"circuit_design",
   Description:"A three-day workshop was organized on 2nd, 3rd and 4th of February, 2020 by the Electronics and Communication Engineering Society (ECESOC), Birla Institute of Technology, Mesra. There was a turnout of 30-40 students from first year to final year. Participants undertook exceptional interest in the workshop. Detailed explanation of MOSFETs, its analysis and related circuit design was delivered. The workshop successfully taught valuable topics and helped the students to perceive knowledge in various topics. Many doubts from students where then cleared regarding the topics and even about the future approach regarding advancements in it. This workshop had evolved the plan of our preparation and had amplified our knowledge immensely. The entire go through from basics to advance for the preparation for core companies was given. Guidance to all those who want to pursue higher studies or GATE was given."
@@ -26,4 +26,8 @@ const eventDetails=[{
   Description:"A two-days workshop was organized on 29th and 30th of September, 2018 by the Electronics and Communication Engineering Society (ECESOC), Birla Institute of Technology, Mesra. The objective of the workshop was to explain how Digital Electronics can be utilised in microprocessor design. The session was interactive, students came up with doubts and satisfactorily cleared all of them at the moment. The passionate attendees enthralled the volunteers to give as much knowledge and information as possible. The workshop involved Comparison of analog and digital electronics, logic functions and truth table, logic gates, basic theorem properties, Boolean Functions, minterm-maxterm, k-map, adder, subtractor, decoder, encoder, mux, demux, flip-flops, etc. The volunteers being seniors, gave some tips to tackle the problems regarding the subject , books and sites for reference. Some practical electronic projects were displayed and their workings were shown to show the applications of the topics taught and hands on hardware projects were provided.Students were awestruck to encounter the working models and the Arduino project outshone all of the other projects. The workshop was concluded with certificate of participation given to the attendees to boost their confidence."
 }];
 
-export default eventDetails;
+const ongoingEvents=[];
+
+const comingEvents=[];
+
+export {pastEvents, ongoingEvents, comingEvents};

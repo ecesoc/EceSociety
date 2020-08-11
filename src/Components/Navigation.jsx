@@ -21,7 +21,9 @@ function Navigation(){
     <nav className="navbar fixed-top navbar-expand-lg">
     <img className="logo" src="images/logo_fav.png" alt="ecesoc logo" />
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#top" aria-controls="top" aria-expanded="false" aria-label="Toggle navigation" onClick={toggleChange}>
-      <p>{!isClosed?"Menu":"X"}</p>
+      <span className={isClosed?"menuOpen":"menuClose"}></span>
+      <span className={isClosed?"menuOpen":"menuClose"}></span>
+      <span className={isClosed?"menuOpen":"menuClose"}></span>
       </button>
       <div className="collapse navbar-collapse" id="top">
     <ul className="navbar-nav ml-auto">

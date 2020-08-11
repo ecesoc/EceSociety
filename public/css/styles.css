@@ -53,9 +53,14 @@ nav button{
   font-weight: bolder;
 }
 
+.navbar-nav a{
+  text-decoration: none;
+}
+
 .navbar-nav li:hover{
-  color: grey;
-  text-decoration: underline #f4f4f4;
+  color: lightblue;
+  border-bottom: 2px lightgreen solid;
+  transform: scale(1.2);
 }
 
 header{
@@ -72,6 +77,26 @@ header{
   font-size: 2rem;
   line-height: 4rem;
 }
+
+.menuClose , .menuOpen{
+  display: block;
+  margin: 10px;
+  height: 2px;
+  width: 50px;
+  background-color: white;
+  transition: ease .5s;
+}
+
+.menuOpen:nth-child(1){
+  transform:translate3d(0,10px,0) rotateZ(45deg);
+}
+.menuOpen:nth-child(2){
+  opacity: 0;
+}
+.menuOpen:nth-child(3){
+  transform:translate3d(0,-13px,0) rotateZ(-45deg);
+}
+
 
 
 /*********** FOOTER *********/
@@ -101,11 +126,11 @@ footer a{
   color: #262626;
 }
 
-footer li:hover .icon{
-  color: #fff;
+footer .icon{
+  transition: all ease 1s;
 }
 
-footer ul li:hover{
+footer li:hover .icon{
   color: #fff;
   transform: rotateY(360deg);
 }
@@ -213,6 +238,18 @@ footer ul li:nth-child(4):hover{
 }
 
 /*********** EVENTS PAGE *********/
+.event-List span{
+  font-size: 1.5rem;
+  display: inline-flex;
+  margin-left: 2.6%;
+  margin-top: 3%;
+  color: red;
+  font-weight: 700;
+}
+.changeEvent ,.event-List span:hover {
+  border-bottom: 2px solid red;
+}
+
 .event-pic{
   width:80%;
   height:80%;
