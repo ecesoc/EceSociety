@@ -11,7 +11,6 @@ import Home from "./Home/Home";
 
 function Navigation(){
   var [isClosed, setIsClosed]=useState(false);
-
   var toggleChange= function(){
     setIsClosed(!isClosed);
   };
@@ -25,7 +24,8 @@ function Navigation(){
       <span className={isClosed?"menuOpen":"menuClose"}></span>
       <span className={isClosed?"menuOpen":"menuClose"}></span>
       </button>
-      <div className="collapse navbar-collapse" id="top">
+
+    <div className="collapse navbar-collapse" id="top">
     <ul className="navbar-nav ml-auto">
       <Link to="/"><li>Home</li></Link>
       <Link to="/Events"><li>Events</li></Link>

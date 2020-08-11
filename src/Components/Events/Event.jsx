@@ -13,9 +13,9 @@ function Events(){
   let changeEvent_U= ()=>setEvent("U");
   return (
     <div className="event-List">
-    <span onClick={changeEvent_U} className={event_Held==="U"&&"changeEvent"}>Upcoming Events</span>
-    <span onClick={changeEvent_O} className={event_Held==="O"&&"changeEvent"}>Ongoing Events</span>
-    <span onClick={changeEvent_P} className={event_Held==="P"&&"changeEvent"}>Past Events</span>
+    <span onClick={changeEvent_U} className={event_Held==="U"?"changeEvent":null}>Upcoming Events</span>
+    <span onClick={changeEvent_O} className={event_Held==="O"?"changeEvent":null}>Ongoing Events</span>
+    <span onClick={changeEvent_P} className={event_Held==="P"?"changeEvent":null}>Past Events</span>
     {event_Held==="U"&&<UpcomingEvents />}
     {event_Held==="O"&&<OngoingEvents />}
     {event_Held==="P"&&<PastEvents />}

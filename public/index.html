@@ -21,5 +21,13 @@
   <body>
   <div id="root"></div>
   </body>
+  <script>
+  var navItems = document. querySelectorAll(".navbar-nav li");
+  navItems.forEach(function(item){
+    item.addEventListener("click",function(){
+      document.querySelector(".navbar-toggler").click()
+    })
+  })
+  </script>
 
 </html>
