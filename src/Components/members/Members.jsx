@@ -3,8 +3,9 @@ import React,{ useState} from "react";
 import {membersk17, membersk18} from "./MemberDetails";
 import Image from "../Image";
 
-function Names({name}){
+function Names({name,linkedin}){
   let imgAddress="images/members/" + name +".jpg";
+  console.log(linkedin);
   return (
     <div className="col-lg-4 col-md-12">
         <div className="pic">
@@ -13,13 +14,14 @@ function Names({name}){
         <br />
         <div className="member-name">
           <h4>{name}</h4>
+          <a href={linkedin}><i className="fab fa-linkedin"></i></a>
         </div>
     </div>
   );
 }
 
-function memberNames(name,index){
-  return <Names key={index} name={name} />
+function memberNames({name,linkedin},index){
+  return <Names key={index} name={name} linkedin={linkedin} />
 }
 
 function EachPost({post,member}){

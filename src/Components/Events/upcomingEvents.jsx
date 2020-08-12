@@ -2,6 +2,7 @@
 import React from "react";
 import {comingEvents} from "./EventDetails";
 import {Eventpic} from "../Image";
+import NoEvent from "./noEvent";
 
 function EachEvent({participants,description,imgAddress}){
   return(
@@ -29,8 +30,10 @@ const imgAddress="images/events/"+event.src+".jpg";
 }
 
 function UpcomingEvents(){
+  let eventSize=comingEvents.length;
+  let listevents=comingEvents.map(eventList);
   return (
-    comingEvents.map(eventList)
-)}
+    eventSize ? listevents : <NoEvent prop="Upcoming" />
+  )}
 
 export default UpcomingEvents;

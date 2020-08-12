@@ -3,57 +3,57 @@
 const membersk17=[
   {
   post:"President",
-  member:["Tanmay Gupta"]
+  member:[{name:"Tanmay Gupta",linkedin:""}]
 },
 {
   post:"Vice President",
-  member:["Pratik Kumar","Dev Gupta"]
+  member:[{name:"Pratik Dalmia",linkedin:""},{name:"Dev Gupta",linkedin:""}]
 },
 {
   post:"Technical Head",
-  member:["Himanshu Bhushan","Kushal Gella","Sayonee Mohapatra"]
+  member:[{name:"Himanshu Bhushan",linkedin:""},{name:"Kushal Gella",linkedin:""},{name:"Sayonee Mohapatra",linkedin:""}]
 },
 {
   post:"Program Director",
-  member:["Aditi Aparna","Pradipta Ray","Shashank Shekhar"]
+  member:[{name:"Aditi Aparna",linkedin:""},{name:"Pradipta Ray",linkedin:""},{name:"Shashank Shekhar",linkedin:""}]
 },
 {
   post:"Workshop Head",
-  member:["Shreshth Gupta","Pratyush Agarwal","Raghav Charan"]
+  member:[{name:"Shreshth Gupta",linkedin:""},{name:"Pratyush Agarwal",linkedin:""},{name:"Raghav Charan",linkedin:""}]
 },{
   post:"Event Head",
-  member:["Vivek Basant","Bhavya"]
+  member:[{name:"Vivek Basant",linkedin:""},{name:"Bhavya",linkedin:""}]
 }];
 
 const membersk18=[
   {
   post:"General Secretary",
-  member:["Shekhar Satyakar","Harsh Malpani"]
-},
-{
-  post:"Treasurer",
-  member:["MD Ifham Shakil"]
+  member:[{name:"Shekhar Satyakar",linkedin:""},{name:"Harsh Malpani",linkedin:""}]
 },
 {
   post:"Technical Coordinator",
-  member:["Sanidhya Singh","Rishi Jain","Anil Singh Negi"]
+  member:[{name:"Sanidhya Singh",linkedin:""},{name:"Rishi Jain",linkedin:""},{name:"Anil Singh Negi",linkedin:""}]
 },
 {
   post:"Workshop Coordinator",
-  member:["Sanyam Jain","Sankalp Pandey","Ritik Garg"]
+  member:[{name:"Sanyam Jain",linkedin:""},{name:"Sankalp Pandey",linkedin:""},{name:"Ritik Garg",linkedin:""}]
 },
 {
   post:"Event Coordinator",
-  member:["Shyam Pat Singhania","Adarsh Prakash Pandey","Puneet Arora"]
+  member:[{name:"Shyam Pat Singhania",linkedin:""},{name:"Adarsh Prakash Pandey",linkedin:""},{name:"Puneet Arora",linkedin:""}]
 },{
   post:"Design Head",
-  member:["Vidya Sagarika Panna","Namrata Marandi"]
+  member:[{name:"Vidya Sagarika Panna",linkedin:""},{name:"Namrata Marandi",linkedin:""}]
 },{
   post:"Content & Publicity Head",
-  member:["Shaswat Shrivastava"]
+  member:[{name:"Shaswat Shrivastava",linkedin:""}]
+},
+{
+  post:"Treasurer",
+  member:[{name:"MD Ifham Shakil",linkedin:""}]
 },{
   post:"Our Other Members",
-  member:["Shubhankar Handa","Prishiyas Parag","Vaibhav Gupta"]
+  member:[{name:"Shubhankar Handa",linkedin:""},{name:"Prishiyas Parag",linkedin:""},{name:"Vaibhav Gupta",linkedin:""}]
 }];
 
 export {membersk17 , membersk18};

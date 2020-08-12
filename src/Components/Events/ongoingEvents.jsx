@@ -2,6 +2,7 @@
 import React from "react";
 import {ongoingEvents} from "./EventDetails";
 import {Eventpic} from "../Image";
+import NoEvent from "./noEvent";
 
 function EachEvent({participants,description,imgAddress}){
   return(
@@ -29,8 +30,10 @@ const imgAddress="images/events/"+event.src+".jpg";
 }
 
 function OngoingEvents(){
+  let eventSize=ongoingEvents.length;
+  let listevents=ongoingEvents.map(eventList);
   return (
-    ongoingEvents.map(eventList)
+    eventSize ? listevents : <NoEvent prop="Ongoing" />
 )}
 
 export default OngoingEvents;

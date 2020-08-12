@@ -13,9 +13,8 @@ img:hover{
 }
 
 hr{
-  height: 2px;
   width: 65%;
-  background-color:lightgreen;
+  border-top: 4px dashed #8DF2C5;
   margin:10px auto;
 }
 
@@ -229,7 +228,7 @@ footer ul li:nth-child(4):hover{
   display: inline-flex;
   margin-left: 2.6%;
   margin-top: 3%;
-  color: red;
+  color: #126EA4;
   font-weight: 700;
 }
 
@@ -238,7 +237,11 @@ footer ul li:nth-child(4):hover{
 }
 
 .changeMember ,.executive-Body span:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #0C4D74;
+}
+
+.member-name a{
+  font-size: 3rem;
 }
 
 /*********** EVENTS PAGE *********/
@@ -247,11 +250,11 @@ footer ul li:nth-child(4):hover{
   display: inline-flex;
   margin-left: 2.6%;
   margin-top: 3%;
-  color: red;
+  color: #126EA4;
   font-weight: 700;
 }
 .changeEvent ,.event-List span:hover {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #0C4D74;
 }
 
 .event-pic{
@@ -265,6 +268,15 @@ footer ul li:nth-child(4):hover{
 
 .col-lg-4{
   text-align: center;
+}
+
+.noEvent{
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: normal;
+  padding-top: 2rem;
+  color: #4B4F57;
 }
 
 /*********** ABOUT US *********/
