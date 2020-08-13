@@ -3,11 +3,10 @@ import React,{ useState} from "react";
 import {membersk17, membersk18} from "./MemberDetails";
 import Image from "../Image";
 
-function Names({name,linkedin}){
+function memberNames({name,linkedin},index){
   let imgAddress="images/members/" + name +".jpg";
-  console.log(linkedin);
   return (
-    <div className="col-lg-4 col-md-12">
+    <div key={index} className="col-lg-4 col-md-12">
         <div className="pic">
           <Image src={imgAddress} />
         </div>
@@ -20,13 +19,9 @@ function Names({name,linkedin}){
   );
 }
 
-function memberNames({name,linkedin},index){
-  return <Names key={index} name={name} linkedin={linkedin} />
-}
-
-function EachPost({post,member}){
+function member({post,member},index){
   return(
-    <div>
+    <div key={index}>
     <h3 className="post-title">{post}</h3>
     <br />
     <div className="row">
@@ -37,10 +32,6 @@ function EachPost({post,member}){
     <br />
     </div>
   )
-}
-
-function member(item,index){
-  return <EachPost key={index} post={item.post} member={item.member} />
 }
 
 

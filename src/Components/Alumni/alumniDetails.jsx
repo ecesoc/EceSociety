@@ -4,7 +4,7 @@ const alumniDetails = [{
       company: "Synopsys",
       batch: "2k16",
       description: "",
-      linkedin:"https://www.linkedin.com/in/pawan-kumar-077452178/"
+      linkedin:"https://www.linkedin.com/in/pawan-kumar-sahu-077452178/"
     },
     {
       name: "Prerit Sinha",

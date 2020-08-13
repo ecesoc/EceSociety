@@ -97,7 +97,7 @@ header{
   opacity: 0;
 }
 .menuOpen:nth-child(3){
-  transform:translate3d(0,-13px,0) rotateZ(-45deg);
+  transform:translate3d(0,-15px,0) rotateZ(-45deg);
 }
 
 
@@ -277,6 +277,22 @@ footer ul li:nth-child(4):hover{
   line-height: normal;
   padding-top: 2rem;
   color: #4B4F57;
+}
+
+.event-icon{
+  font-size: 3rem;
+  margin-right: 2rem;
+  float: right;
+}
+
+.pevent-icon{
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+
+.event-name{
+  text-align: center;
+  font-weight: 700;
 }
 
 /*********** ABOUT US *********/
