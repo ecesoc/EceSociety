@@ -19,15 +19,27 @@
   </head>
 
   <body>
-  <div id="root"></div>
+    <div class="loader-page">
+      <img src="./images/loader.gif" alt="Loader">
+    </div>
+  <div id="root">
+
+  </div>
   </body>
   <script>
   var navItems = document. querySelectorAll(".navbar-nav li");
+  var rootId=document.querySelector("#root");
+  var loaderClass=document.querySelector(".loader-page");
   navItems.forEach(function(item){
     item.addEventListener("click",function(){
       document.querySelector(".navbar-toggler").click()
     })
   })
+
+  setTimeout(function(){
+    rootId.style.visibility="visible";
+  },2000)
+
   </script>
 
 </html>

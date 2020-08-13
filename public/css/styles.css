@@ -26,6 +26,37 @@ p{
   margin: 3% 2% 0 3%;
 }
 
+/************Loader********/
+.loader-page{
+  overflow-y: hidden;
+  position: fixed;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  animation: loader-animate 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+.loader-page img{
+  height: auto;
+  width: 23rem;
+  margin-top: 15%;
+  border:black;
+}
+
+@keyframes loader-animate {
+  0% { opacity: 1;}
+  50%{opacity: 0.5;}
+  100%{opacity: 0;height: 80px;weight:80px;}
+}
+
+#root{
+  visibility: hidden;
+}
+
 
 /*********** HEADER *********/
 .logo{
