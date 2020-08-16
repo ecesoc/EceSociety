@@ -3,22 +3,36 @@ const alumniDetails = [{
       name: "Pawan Kumar",
       company: "Synopsys",
       batch: "2k16",
-      description: "",
+      description: "Bit Mesra (ECE), was not a smooth journey for me. I had an interest in electronics from 1st year only but as an average student, I found lot of difficulties. I did my best and with all my hard work, I started feeling comfortable and finally fell in love with Electronics. After 2nd year I got a chance to be a part of ECESOC, it helped me a lot in building my personality and the guidance from seniors helped me to evolve in my career. It has been a journey worth all my efforts. Currently, I am an Analog and mixed-signal design Engineer at Synopsys. I love my work because I always wanted to be here.My only suggestion for juniors to dream big because its only thing which gives life its purpose and direction. I personally believe in one thing that a hard worker can achieve anything if they have a strong dedication towards their work.",
       linkedin:"https://www.linkedin.com/in/pawan-kumar-sahu-077452178/"
     },
     {
       name: "Prerit Sinha",
       company: "Deloitte",
       batch: "2k16",
-      description: "",
+      description: "We should enjoy every moment of our life and stop waiting for something else to make us happy by having the courage to follow our heart and intuition for we live in deeds and not in years.",
       linkedin:"https://www.linkedin.com/in/preritsinha/"
     },
     {
       name: "Abhinit Saurabh",
       company: "Synopsys",
       batch: "2k16",
-      description: "",
+      description: "A&MS Circuit Design Engineer || VLSI enthusiast",
       linkedin:"https://www.linkedin.com/in/abhinit-saurabh-752519174/"
+    },
+    {
+      name: "Atandra Pal",
+      company: "Synopsys",
+      batch: "2k16",
+      description: "A&MS Circuit Design Engineer",
+      linkedin:"https://www.linkedin.com/in/atandrapal/"
+    },
+    {
+      name: "Jaya Anand",
+      company: "Synopsys",
+      batch: "2k15",
+      description: "A&MS Circuit Design Engineer",
+      linkedin:"https://www.linkedin.com/in/jaya-anand-87637b148/"
     },
     {
       name: "Om Prakash",

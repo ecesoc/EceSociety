@@ -1,6 +1,6 @@
 //jshint esversion:6
 import React,{useState} from "react";
-import {BrowserRouter,Switch,Link,Route} from "react-router-dom";
+import {HashRouter as Router,Switch,Link,Route} from "react-router-dom";
 import Alumni from "./Alumni/Alumni";
 import Member from "./members/Members";
 import Events from "./Events/Event";
@@ -16,7 +16,7 @@ function Navigation(){
   };
 
   return (
-    <BrowserRouter basename="/EceSociety">
+    <Router>
     <nav className="navbar fixed-top navbar-expand-lg">
     <img className="logo" src="images/logo_fav.png" alt="ecesoc logo" />
     <img className="logo" src="images/BIT-Mesra-logo.jpg" alt="BIT logo" />
@@ -40,12 +40,12 @@ function Navigation(){
     <Switch>
 
     <Route exact path="/">
-    <HeadContent page="Home" quote="Other kids went out and beat each other up or played cricket, and I built Electronics" />
+    <HeadContent page="Home" quote="Electronic Communication is an instantaneous and illusory contact that creates a sense of intimacy without the emotional investment that leads to close friendships." />
     <Home />
     </Route>
 
     <Route path="/Events">
-    <HeadContent page="Events" quote="A goal without a plan is just a wish" />
+    <HeadContent page="Events" quote="Events, we have completed demonstrate what we know. Future Events show what we learn." />
     <Events />
     </Route>
 
@@ -55,17 +55,17 @@ function Navigation(){
     </Route>
 
     <Route path="/Alumni">
-    <HeadContent page="Our Alumni" quote="Any institution's alumni are key to its growth. We are focused on giving a global experience to our students." />
+    <HeadContent page="Our Alumni" quote="Life is like a semiconductor, neither conductor, nor insulator." />
     <Alumni />
     </Route>
 
     <Route path="/About">
-    <HeadContent page="About Us" quote="We play with Electronics" />
+    <HeadContent page="About Us" quote="There's nothing I believe in more strongly than getting young people interested in Science and Engineering, for a better Tomorrow." />
     <About />
     </Route>
 
     </Switch>
-    </BrowserRouter>
+    </Router>
   )
 };
 

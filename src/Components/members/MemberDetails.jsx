@@ -7,7 +7,7 @@ const membersk17=[
 },
 {
   post:"Vice President",
-  member:[{name:"Pratik Dalmia",linkedin:""},
+  member:[{name:"Pratik Dalmia",linkedin:"https://www.linkedin.com/in/pratik-kumar-6b22061aa/"},
   {name:"Dev Gupta",linkedin:"https://www.linkedin.com/in/dev-g-gupta"}]
 },
 {
@@ -20,11 +20,11 @@ const membersk17=[
   post:"Program Director",
   member:[{name:"Aditi Aparna",linkedin:"https://www.linkedin.com/in/aditi-aparna-7276a3188"},
   {name:"Pradipta Ray",linkedin:"https://www.linkedin.com/in/raypradipta/"},
-  {name:"Shashank Shekhar",linkedin:""}]
+  {name:"Shashank Shekhar",linkedin:"https://www.linkedin.com/in/shashank-shekhar-66707b170/"}]
 },
 {
   post:"Workshop Head",
-  member:[{name:"Shreshth Gupta",linkedin:""},
+  member:[{name:"Shreshth Gupta",linkedin:"https://www.linkedin.com/in/shreshth-gupta-9b679a168/"},
   {name:"Pratyush Agarwal",linkedin:"https://www.linkedin.com/in/pratyush-agarwal-998599161"},
   {name:"Raghav Charan",linkedin:"https://www.linkedin.com/in/raghavcharan/"}]
 },{
@@ -58,7 +58,7 @@ const membersk18=[
   {name:"Puneet Arora",linkedin:"https://www.linkedin.com/in/puneet-arora-4a5ba7194/"}]
 },{
   post:"Design Head",
-  member:[{name:"Vidya Sagarika Panna",linkedin:""},
+  member:[{name:"Vidya Sagarika Panna",linkedin:"https://www.linkedin.com/in/vidya-sagarika-panna-8348471b4/"},
   {name:"Namrata Marandi",linkedin:"https://www.linkedin.com/in/namrata-marandi-5194b71a1"}]
 },{
   post:"Content & Publicity Head",
