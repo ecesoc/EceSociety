@@ -3,9 +3,10 @@ import React from "react";
 
 function WhatWeDo(){
   return (
-    <div className="about-content" style={{padding:"3%"}}>
+    <div>
     <strong>What We do</strong>
-    <ul className="what-we-do">
+    <br/>
+    <ul>
       <li>We conduct various workshops on both core and non-core topics, including analog electronics, computer vision etc.
       </li>
       <li>

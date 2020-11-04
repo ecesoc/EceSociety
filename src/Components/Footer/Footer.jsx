@@ -1,12 +1,13 @@
 //jshint esversion:6
 
 import React from "react";
+import "./styles.css"
 
 function Footer(){
   var year=new Date().getFullYear();
   return (
     <footer>
-    <h3>Follow Us On</h3>
+    <h4>Follow Us On</h4>
       <ul>
         <li><span><a href="https://in.linkedin.com/company/ece-society-bit-mesra"><i className="fab fa-linkedin-in icon"></i></a></span></li>
         <li><a href="https://www.instagram.com/ecesociety/?igshid=rzx7kqpvjuad"><i className="fab fa-instagram icon"></i></a></li>
@@ -15,7 +16,7 @@ function Footer(){
       </ul>
 
       <div>
-        <h3>Copyright &#169; {year} ECE Society,BIT Mesra</h3>
+        <h6>Copyright &#169; {year} ECE Society, BIT Mesra</h6>
       </div>
     </footer>
   );

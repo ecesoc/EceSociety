@@ -1,0 +1,30 @@
+.executive-Body span{
+    font-size: 1.5rem;
+    display: inline-flex;
+    margin-left: 2.6%;
+    margin-top: 3%;
+    color: #126EA4;
+    font-weight: 700;
+}
+.executive-Body{
+    text-align: center;
+}
+  
+.executive-div div{
+    display: inline-block;
+    margin:1% 1%;
+}
+  
+.post-title{
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px #C0C6C8;
+}
+  
+.changeMember ,.executive-Body span:hover {
+    border-bottom: 2px solid #0C4D74;
+    text-shadow: 1.5px 1.5px #C0C6C8;
+}
+  
+.member-name a{
+    font-size: 3rem;
+}

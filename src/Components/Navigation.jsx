@@ -18,8 +18,8 @@ function Navigation(){
   return (
     <Router>
     <nav className="navbar fixed-top navbar-expand-lg">
-    <img className="logo" src="images/logo_fav.png" alt="ecesoc logo" />
-    <img className="logo" src="images/BIT-Mesra-logo.jpg" alt="BIT logo" />
+    <Link to="/"><img className="logo" src="images/logo_fav.png" alt="ecesoc logo" /></Link>
+    <a href="https://www.bitmesra.ac.in/"><img className="logo" src="images/BIT-Mesra-logo.jpg" alt="BIT logo" /></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#top" aria-controls="top" aria-expanded="false" aria-label="Toggle navigation" onClick={toggleChange}>
       <span className={isClosed?"menuOpen":"menuClose"}></span>
       <span className={isClosed?"menuOpen":"menuClose"}></span>
@@ -28,11 +28,11 @@ function Navigation(){
 
     <div className="collapse navbar-collapse" id="top">
     <ul className="navbar-nav ml-auto">
-      <Link to="/"><li>Home</li></Link>
-      <Link to="/Events"><li>Events</li></Link>
-      <Link to="/members"><li>Executive Body</li></Link>
-      <Link to="/Alumni"><li>Alumni</li></Link>
-      <Link to="/About"><li>About Us</li></Link>
+      <Link to="/"><li>HOME</li></Link>
+      <Link to="/Events"><li>EVENTS</li></Link>
+      <Link to="/members"><li>EXECUTIVE BODY</li></Link>
+      <Link to="/Alumni"><li>ALUMNI</li></Link>
+      <Link to="/About"><li>ABOUT US</li></Link>
     </ul>
     </div>
     </nav>
@@ -40,27 +40,27 @@ function Navigation(){
     <Switch>
 
     <Route exact path="/">
-    <HeadContent page="Home" quote="Electronic Communication is an instantaneous and illusory contact that creates a sense of intimacy without the emotional investment that leads to close friendships." />
+    <HeadContent page="ECE SOCIETY" quote="Electronic Communication is an instantaneous and illusory contact that creates a sense of intimacy without the emotional investment that leads to close friendships." />
     <Home />
     </Route>
 
     <Route path="/Events">
-    <HeadContent page="Events" quote="Events, we have completed demonstrate what we know. Future Events show what we learn." />
+    <HeadContent page="EVENTS" quote="Events, we have completed demonstrate what we know. Future Events show what we learn." />
     <Events />
     </Route>
 
     <Route path="/members">
-    <HeadContent page="Executive Body" quote="Talent wins games, but teamwork and intelligence win championships." />
+    <HeadContent page="EXECUTIVE BODY" quote="Talent wins games, but teamwork and intelligence win championships." />
     <Member />
     </Route>
 
     <Route path="/Alumni">
-    <HeadContent page="Our Alumni" quote="Life is like a semiconductor, neither conductor, nor insulator." />
+    <HeadContent page="OUR ALUMNI" quote="Life is like a semiconductor, neither conductor, nor insulator." />
     <Alumni />
     </Route>
 
     <Route path="/About">
-    <HeadContent page="About Us" quote="There's nothing I believe in more strongly than getting young people interested in Science and Engineering, for a better Tomorrow." />
+    <HeadContent page="ABOUT US" quote="There's nothing I believe in more strongly than getting young people interested in Science and Engineering, for a better Tomorrow." />
     <About />
     </Route>
 

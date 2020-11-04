@@ -1,0 +1,20 @@
+.person-pic{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 10px 3px;
+}
+
+.alumnus-pic{
+    text-align: center;
+    margin: 1rem 0;
+}
+  
+.alumnus-content h4{
+    text-align: center;
+}
+  
+.alumni-linkedin{
+    float: right;
+    font-size: 3rem;
+}

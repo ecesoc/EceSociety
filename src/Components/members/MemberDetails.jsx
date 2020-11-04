@@ -40,6 +40,10 @@ const membersk18=[
   {name:"Harsh Malpani",linkedin:"https://www.linkedin.com/in/harsh-malpani-2b773a190/"}]
 },
 {
+  post:"Treasurer",
+  member:[{name:"MD Ifham Shakil",linkedin:"https://www.linkedin.com/in/md-ifham-shakil-7ab6b9157/"}]
+},
+{
   post:"Technical Coordinator",
   member:[{name:"Sanidhya Singh",linkedin:"https://www.linkedin.com/in/sanidhya-singh-32947a197/"},
   {name:"Rishi Jain",linkedin:"https://www.linkedin.com/in/rishi-jain-66632a175"},
@@ -65,9 +69,6 @@ const membersk18=[
   member:[{name:"Shaswat Shrivastava",linkedin:"https://www.linkedin.com/in/shaswat-shrivastava-b0944b191/"}]
 },
 {
-  post:"Treasurer",
-  member:[{name:"MD Ifham Shakil",linkedin:"https://www.linkedin.com/in/md-ifham-shakil-7ab6b9157/"}]
-},{
   post:"Our Other Members",
   member:[{name:"Shubhankar Handa",linkedin:"https://www.linkedin.com/in/shubhankar-h-686213114"},
   {name:"Prishiyas Parag",linkedin:"https://www.linkedin.com/in/prishiyas-parag-7b1b39199/"},

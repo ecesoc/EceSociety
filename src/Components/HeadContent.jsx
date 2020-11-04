@@ -5,7 +5,7 @@ function HeadContent(prop){
   return (
     <header>
     <p>{prop.page}</p>
-    <p className="quote"><em>"{prop.quote}"</em></p>
+    <p className="quote">"{prop.quote}"</p>
     </header>
   )
 }

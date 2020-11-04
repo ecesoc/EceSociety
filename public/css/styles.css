@@ -5,11 +5,11 @@ body{
 
 img{
   transition: all 1s;
-  border: 3px #191919 solid;
+  border: 3px #696e6a solid;
 }
 
 img:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 hr{
@@ -24,6 +24,10 @@ p{
 
 .row, .post-title{
   margin: 3% 2% 0 3%;
+}
+
+h5,h3,h6,h4,h1,h2{
+  text-align: justify;
 }
 
 /************Loader********/
@@ -75,8 +79,10 @@ p{
 }
 
 .navbar-nav li{
-  margin: 10px;
+  margin: 10px 20px;
+  padding: 3px;
   color: #f4f4f4;
+  display: inline-block;
 }
 
 nav button{
@@ -89,10 +95,9 @@ nav button{
 }
 
 .navbar-nav li:hover{
-  color: lightblue;
-  display: inline-block;
-  border-bottom: 2px lightgreen solid;
   transform: scale(1.2);
+  box-shadow: 0 0 4px 3px white;
+  border-radius: 10%;
 }
 
 header{
@@ -103,13 +108,14 @@ header{
   padding:  8rem 0 1rem 0;
   color: #f4f4f4;
   font-weight: bold;
-  font-size: 4.7rem;
-  line-height: 5rem;
+  font-size: 4rem;
+  line-height: 4rem;
 }
 
 .quote{
-  font-size: 2rem;
-  line-height: 4rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 200;
 }
 
 .menuClose , .menuOpen{
@@ -130,65 +136,6 @@ header{
 .menuOpen:nth-child(3){
   transform:translate3d(0,-15px,0) rotateZ(-45deg);
 }
-
-
-
-/*********** FOOTER *********/
-
-footer{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  bottom: 0;
-  text-align: center;
-  background-color: #262626;
-  color:#fff;
-}
-
-footer ul li{
-  display: inline-block;
-  width: 5rem;
-  border: 4px #fff solid;
-  background-color: #fff;
-  border-radius: 100%;
-  font-size: 3rem;
-  margin: 10px;
-  position: relative;
-  transition: all ease 1s;
-}
-
-footer a{
-  color: #262626;
-}
-
-footer .icon{
-  transition: all ease 1s;
-}
-
-footer li:hover .icon{
-  color: #fff;
-  transform: rotateY(360deg);
-}
-
-footer ul li:nth-child(1):hover{
-  background: #0e76a8;
-}
-
-footer ul li:nth-child(2):hover{
-  background: #e95950;
-}
-
-footer ul li:nth-child(3):hover{
-  background: #3b5998;
-}
-
-footer ul li:nth-child(4):hover{
-  background: #d44638;
-}
-
-.icon:hover{
-  color: #fff;
-}
-
 
 /*********** HOME PAGE*********/
 .bimg0 , .bimg1 , .bimg2 , .bimg3{
@@ -218,6 +165,7 @@ footer ul li:nth-child(4):hover{
 .homeimg{
   height: 50%;
   width: 50%;
+  box-shadow: 0px 0px 10px 3px;
 }
 
 #homepic{
@@ -225,8 +173,20 @@ footer ul li:nth-child(4):hover{
   text-align: center;
 }
 
-.about-content{
-  font-size: 2rem;
+.home-content div{
+  font-size: 1.43rem;
+  max-width: 500px;
+  display: inline-block;
+  padding: 3% ;
+  margin: 5% 7%;
+  border: black solid 2px;
+  background-color: #606364;
+  color: #FFFFFF;
+  box-shadow: 0 7px 7px 3px #C0C6C8;
+}
+
+.about-content:last-child{
+  margin-left: 7%;
 }
 
 .ctr{
@@ -235,99 +195,27 @@ footer ul li:nth-child(4):hover{
   color: #666;
 }
 
-/*********** ALUMNI PAGE *********/
-
-.person-pic{
-  border-radius: 100%;
-  width: 250px;
-  height: 250px;
+.ctr:hover{
+  color:#4B4F57;
+}
+.ctr:active{
+  color: #191919;
 }
 
-.alumnus-pic{
-  text-align: center;
+.carousel-indicators{
+  padding-bottom: 10px;
 }
 
-.alumni-linkedin{
-  float: right;
-  font-size: 3rem;
+@media screen and (max-width: 1400px){
+  .home-content div{
+    max-width: 450px;
+    margin: 3% 5%;
+  }
 }
 
-/*********** EXECUTIVE BODY PAGE *********/
-
-.executive-Body span{
-  font-size: 1.5rem;
-  display: inline-flex;
-  margin-left: 2.6%;
-  margin-top: 3%;
-  color: #126EA4;
-  font-weight: 700;
-}
-
-.post-title{
-  font-weight: bold;
-}
-
-.changeMember ,.executive-Body span:hover {
-  border-bottom: 2px solid #0C4D74;
-}
-
-.member-name a{
-  font-size: 3rem;
-}
-
-/*********** EVENTS PAGE *********/
-.event-List span{
-  font-size: 1.5rem;
-  display: inline-flex;
-  margin-left: 2.6%;
-  margin-top: 3%;
-  color: #126EA4;
-  font-weight: 700;
-}
-.changeEvent ,.event-List span:hover {
-  border-bottom: 2px solid #0C4D74;
-}
-
-.event-pic{
-  width:80%;
-  height:80%;
-}
-
-.events-pic{
-  text-align: center;
-}
-
-.col-lg-4{
-  text-align: center;
-}
-
-.noEvent{
-  text-align: center;
-  font-size: 4.5rem;
-  font-weight: bold;
-  line-height: normal;
-  padding-top: 2rem;
-  color: #4B4F57;
-}
-
-.event-icon{
-  font-size: 3rem;
-  margin-right: 2rem;
-  float: right;
-}
-
-.pevent-icon{
-  font-size: 3rem;
-  margin-right: 2rem;
-}
-
-.event-name{
-  text-align: center;
-  font-weight: 700;
-}
-
-/*********** ABOUT US *********/
-.what-we-do{
-  padding: 10px 0 20px 3%;
-  font-size: 1.5rem;
+@media screen and (max-width: 1155px){
+  .home-content div{
+    max-width: 100%;
+    margin: 3% 7%;
+  }
 }

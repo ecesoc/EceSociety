@@ -1,0 +1,53 @@
+.event-List span{
+    font-size: 1.5rem;
+    display: inline-flex;
+    margin-left: 2.6%;
+    margin-top: 3%;
+    color: #126EA4;
+    font-weight: 700;
+}
+  
+.event-List{
+    text-align: center;
+}
+
+.changeEvent ,.event-List span:hover {
+    border-bottom: 2px solid #0C4D74;
+    text-shadow: 1.5px 1.5px #C0C6C8;
+}
+  
+.event-pic{
+    width:80%;
+    height:80%;
+    box-shadow: 0px 0px 10px 3px;
+}
+  
+.events-pic{
+    text-align: center;
+}
+  
+.noEvent{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: normal;
+    padding-top: 2rem;
+    color: #4B4F57;
+}
+  
+.event-icon{
+    font-size: 3rem;
+    margin-right: 2rem;
+    float: right;
+}
+  
+.pevent-icon{
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+  
+.event-name{
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 1.5px 1.5px #C0C6C8;
+}

@@ -9,13 +9,12 @@ function Home (){
     <div className="bimg0"></div>
     <Carousel />
     <div className="bimg1"></div>
-    <br />
-    <br />
-    <WhatWeDo />
-    <div className="bimg2"></div>
-    <div className="about-content" style={{padding:"3%"}}>
+    <div className="home-content">
+      <WhatWeDo />
+    <div className="about-content">
     <strong>How will this help you</strong>
-    <ul className="what-we-do">
+    <br/>
+    <ul>
       <li><strong>Guidance on projects from various topics: </strong>We have decided to assign a project to all those who are interested. They could choose from a large range of options. We would then guide them and help them finish what they started.
       </li>
       <li>
@@ -23,7 +22,8 @@ function Home (){
       </li>
     </ul>
     </div>
-    <div className="bimg3"></div>
+    </div>
+    <div className="bimg2"></div>
     </div>
   )
 }

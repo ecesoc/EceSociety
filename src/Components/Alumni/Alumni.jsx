@@ -3,23 +3,23 @@ import React from "react";
 
 import alumniDetails from "./alumniDetails";
 import Image from "../Image";
+import "./styles.css";
 
-function Alum(info){
+function alumnus({name,batch,company,description,linkedin},index){
+  const imgAddress="images/Alumini/" + name +".jpg";
   return (
-    <div className="row">
+    <div key={index} className="row">
       <div className="col-lg-5 col-md-12 alumnus-pic">
-         <Image src={info.src} />
-         <br />
-         <br />
+         <Image src={imgAddress} />
       </div>
       <div className="col-lg-5 col-md-12 alumnus-content">
-      <h3><span className="alumini-name">Name:</span> {info.name}<span className="alumni-linkedin">
-      <a href={info.linkedin}><i className="fab fa-linkedin"></i></a></span>
-      </h3>
-      <h3><span className="alumini-name">Company:</span> {info.company}</h3>
-      <h3><span className="alumini-name">Batch:</span> {info.batch}</h3>
+      <h4>Name: {name}<span className="alumni-linkedin">
+      <a href={linkedin}><i className="fab fa-linkedin"></i></a></span>
+      </h4>
+      <h4>Company: {company}</h4>
+      <h4>Batch: {batch}</h4>
       <em>
-        <p>"{info.description}"</p>
+        <h6>"{description}"</h6>
       </em>
     </div>
     <br />
@@ -28,12 +28,6 @@ function Alum(info){
   </div>
   )
 }
-
-function alumnus(info,index){
-  const imgAddress="images/Alumini/" + info.name +".jpg";
-  return (
-    <Alum key={index} src={imgAddress} linkedin={info.linkedin} company={info.company} batch={info.batch} name={info.name} description={info.description} />
-)}
 
 function Alumni(){
 return (

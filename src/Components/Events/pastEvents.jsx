@@ -3,20 +3,18 @@ import React from "react";
 import {pastEvents} from "./EventDetails";
 import {Eventpic} from "../Image";
 
-function EachEvent({participants,description,imgAddress,name,fblink,instalink}){
+function eachEvent({name,Participants,src,Description,fblink,instalink},index){
+const imgAddress="images/events/"+src+".jpg";
   return(
-    <div className="row">
+    <div key={index} className="row">
       <div className="col-lg-5 col-md-10 events-pic">
-      <br />
         <Eventpic src={imgAddress} />
       </div>
       <div className="col-lg-7 col-md-10">
         <h1 className="event-name">{name}</h1>
-        <br />
-        <h3>Participants: {participants}</h3>
-
-        <h3>Description :</h3>
-        <h5><em>{description}</em></h5>
+        <h4>Participants: {Participants}</h4>
+        <h4>Description :</h4>
+        <h6><em>{Description}</em></h6>
         {instalink!=="" && <a href={instalink}><i className="fab fa-instagram pevent-icon"></i></a>}
         <a href={fblink}><i className="fab fa-facebook-f pevent-icon"></i></a>
       </div>
@@ -25,16 +23,9 @@ function EachEvent({participants,description,imgAddress,name,fblink,instalink}){
   )
 }
 
-function eventList(event,index){
-const imgAddress="images/events/"+event.src+".jpg";
-  return(
-    <EachEvent key={index} imgAddress={imgAddress} participants={event.Participants} description={event.Description} name={event.name} fblink={event.fblink} instalink={event.instalink} />
-  )
-}
-
 function PastEvents(){
   return (
-    pastEvents.map(eventList)
+    pastEvents.map(eachEvent)
 )}
 
 export default PastEvents;
