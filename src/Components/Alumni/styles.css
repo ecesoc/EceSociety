@@ -11,10 +11,22 @@
 }
   
 .alumnus-content h4{
-    text-align: center;
+    text-align: left;
 }
   
 .alumni-linkedin{
     float: right;
     font-size: 3rem;
 }
+
+.alumni-select{
+    text-align: center;
+    margin: 1% 0;
+    font-size: 1.3rem;
+    line-height: 5px;
+}
+
+.alumni-select label{
+    margin-right: 10px;
+}
+

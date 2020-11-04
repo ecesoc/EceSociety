@@ -73,7 +73,8 @@ h5,h3,h6,h4,h1,h2{
 .navbar {
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
-    padding-right: 10px;background-image: url("../images/header.jpg");
+    padding-right: 10px;
+    background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -110,6 +111,10 @@ header{
   font-weight: bold;
   font-size: 4rem;
   line-height: 4rem;
+}
+
+header p:first-child{
+  text-shadow: 4px 4px 7px #696e6a ;
 }
 
 .quote{
