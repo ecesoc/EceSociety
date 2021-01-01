@@ -17,7 +17,6 @@ function alumnus({name,batch,company,description,linkedin},index){
       <a href={linkedin}><i className="fab fa-linkedin"></i></a></span>
       </h4>
       <h4>Company: {company}</h4>
-      <h4>Batch: {batch}</h4>
       <em>
         <h6>"{description}"</h6>
       </em>
@@ -31,7 +30,7 @@ function alumnus({name,batch,company,description,linkedin},index){
 
 function Alumni(){
   function changeYear(){
-    var year=document.getElementById('branch').value;
+    var year=document.getElementById('batch').value;
     changeBranch(year);
   }
   const [branch,changeBranch]=useState('k16');
@@ -41,8 +40,8 @@ function Alumni(){
 return (
   <>
   <div className='alumni-select'>
-  <label>Branch:</label>
-  <select onChange={changeYear} name='branch' id="branch" value={branch}>
+  <label htmlFor='batch'>Batch:</label>
+  <select onChange={changeYear} name='batch' id="batch" value={branch}>
     <option value='k16'>2k16</option>
     <option value='k15'>2k15</option>
     <option value='k14'>2k14</option>

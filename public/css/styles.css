@@ -32,7 +32,6 @@ h5,h3,h6,h4,h1,h2{
 
 /************Loader********/
 .loader-page{
-  overflow-y: hidden;
   position: fixed;
   background-color: black;
   height: 100%;
@@ -68,6 +67,7 @@ h5,h3,h6,h4,h1,h2{
   width: 80px;
   border-radius: 100%;
   margin-left: 3%;
+  margin-right: 10px ;
 }
 
 .navbar {
@@ -215,12 +215,5 @@ header p:first-child{
   .home-content div{
     max-width: 450px;
     margin: 3% 5%;
-  }
-}
-
-@media screen and (max-width: 1155px){
-  .home-content div{
-    max-width: 100%;
-    margin: 3% 7%;
   }
 }

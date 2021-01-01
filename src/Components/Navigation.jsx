@@ -55,7 +55,7 @@ function Navigation(){
     </Route>
 
     <Route path="/Alumni">
-    <HeadContent page="OUR ALUMNI" quote="Life is like a semiconductor, neither conductor, nor insulator." />
+    <HeadContent page="OUR ALUMNI" quote="Life is like a semiconductor, neither conductor nor insulator." />
     <Alumni />
     </Route>
 

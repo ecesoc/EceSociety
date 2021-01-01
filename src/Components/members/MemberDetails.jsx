@@ -40,6 +40,10 @@ const membersk18=[
   {name:"Harsh Malpani",linkedin:"https://www.linkedin.com/in/harsh-malpani-2b773a190/"}]
 },
 {
+  post:"Web Head",
+  member:[{name:"Shyam Pat Singhania",linkedin:"https://www.linkedin.com/in/shyam-pat-singhania-77989a191"}]
+},
+{
   post:"Treasurer",
   member:[{name:"MD Ifham Shakil",linkedin:"https://www.linkedin.com/in/md-ifham-shakil-7ab6b9157/"}]
 },
@@ -57,8 +61,7 @@ const membersk18=[
 },
 {
   post:"Event Coordinator",
-  member:[{name:"Shyam Pat Singhania",linkedin:"https://www.linkedin.com/in/shyam-pat-singhania-77989a191"},
-  {name:"Adarsh Prakash Pandey",linkedin:"https://www.linkedin.com/in/adarsh-prakash-pandey-9bba981b1/"},
+  member:[{name:"Adarsh Prakash Pandey",linkedin:"https://www.linkedin.com/in/adarsh-prakash-pandey-9bba981b1/"},
   {name:"Puneet Arora",linkedin:"https://www.linkedin.com/in/puneet-arora-4a5ba7194/"}]
 },{
   post:"Design Head",
