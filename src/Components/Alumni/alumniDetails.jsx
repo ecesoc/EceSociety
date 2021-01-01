@@ -26,6 +26,13 @@ const alumniDetailsk16 = [{
       batch: "2k16",
       description: "A&MS Circuit Design Engineer",
       linkedin:"https://www.linkedin.com/in/atandrapal/"
+    },
+    {
+      name: "Sparsh Koushik",
+      company: "Synopsys",
+      batch: "2k16",
+      description: "ASIC Digital Design Engineer",
+      linkedin:"https://www.linkedin.com/in/sparsh-koushik-912103135/"
     }];
   
 const alumniDetailsk15=[{

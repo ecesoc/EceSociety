@@ -22,7 +22,10 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -41,12 +44,5 @@
   "devDependencies": {},
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Shyam3107/EceSociety.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Shyam3107/EceSociety/issues"
-  }
+  "license": "ISC"
 }
