@@ -1,5 +1,10 @@
 in package.json
 "homepage": "http://Shyam3107.github.io/EceSociety",
+
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.14.7"
+  },
 ,
   "repository": {
     "type": "git",
