@@ -5,7 +5,7 @@ const pastEvents=[{
   Participants:"20",
   src:"Teach-and-compete",
   Description:"Trying to make the best out of this global pandemic situation and taking it as an opportunity to share thier  knowledge to vast number of audiences, ECE SOCIETY has taken a step forward to reach out  students and also teach them over  online platform by uploading videos over Facebook.The competition was held during Mid August to Mid September . With an overwhelming response, of nearly 20 participants from different BIT campuses  competed over weekly topics and provided the students their best knowledge. The topics  to be taught were wisely chosen by the Seniors , so that viewers  could learn and understand the basics, not only the topics were inter-related but also were very technical, so that  the enthusiasts had to explore new paths to learn , understand and teach  to the students. Vibrant entrants gave their best to teach the topics to the audience. The topics given to the participants  in these weeks were , The diode ,  Evolution of Data Storages , Evolution of Processors respectively. It was a very informative session which paved a way for students in learning the basics of ECE. After 3 weeks of teaching ,the final results have to heard out . The  top three winners were to be declared on the basis of teaching skills , content delivered  and number of people liking the videos. Top 3 participants were given a certificate of excellence in teach and compete , contest. With the declaration of results , an enlightening  competition has come to an end.",
-  fblink:"",
+  fblink:"https://www.facebook.com/1690801124494928/posts/2798200580421638/?app=fbl",
   instalink:""
 },
 {
