@@ -13,6 +13,7 @@ function memberNames({name,linkedin},index){  // each title
         </div>
         <div className="member-name">
           <h4>{name}</h4>
+          {name==="Sankalp Pandey" && <h5 style={{textAlign:"center"}}>(Web Design)</h5>}
           <a href={linkedin}><i className="fab fa-linkedin"></i></a>
         </div>
     </div>
