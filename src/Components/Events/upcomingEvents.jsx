@@ -5,7 +5,7 @@ import {Eventpic} from "../Image";
 import NoEvent from "./noEvent";
 
 function eachEvent({src,name, rlink,details,fblink,instalink},index){
-  const imgAddress="images/events/"+src+".jpg";
+  const imgAddress="images/events/"+src+".jpeg";
   return(
     <div key={index} className="row">
       <div className="col-lg-5 col-md-10 events-pic">
@@ -18,8 +18,8 @@ function eachEvent({src,name, rlink,details,fblink,instalink},index){
            return <h5 key={index}>{detail}</h5>
         })}
         <br />
-        <h3>For Registration :- <a href={rlink}>Click here</a><a href={instalink}><i className="fab fa-instagram event-icon"></i></a>
-        <a href={fblink}><i className="fab fa-facebook-f event-icon"></i></a></h3>
+        <h4>For Registration :- <a href={rlink}>Click here</a><a href={instalink}><i className="fab fa-instagram event-icon"></i></a>
+        <a href={fblink}><i className="fab fa-facebook-f event-icon"></i></a></h4>
       </div>
       <hr />
     </div>
