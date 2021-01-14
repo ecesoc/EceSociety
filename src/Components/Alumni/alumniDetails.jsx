@@ -3,7 +3,7 @@ const alumniDetailsk16 = [{
       name: "Pawan Kumar",
       company: "Synopsys",
       batch: "2k16",
-      description: "BIT MESRA (ECE), was not a smooth journey for me. I had an interest in electronics from the very 1st year, but as an average student, I faced a lot of difficulties. I did my best and with all my hard work, I started feeling comfortable and finally, fell in love with Electronics. After 2nd year,I got a chance to be a part of ECESOC, it helped me a lot with building my personality and the guidance from seniors helped me evolve in my career. It has been a journey worth all my efforts. Currently, I am an Analog and mixed-signal design Engineer at Synopsys. I love my work because I always wanted to be here. My only suggestion for the juniors would be to dream big because it's the only thing which gives life its purpose and direction. I believe in one thing that a hard worker can achieve anything if they have a strong dedication towards their work.",
+      description: "BIT MESRA (ECE), was not a smooth journey for me. I had an interest in electronics from the very 1st year, but as an average student, I faced a lot of difficulties. I did my best and with all my hard work I started feeling confident and finally fell in love with Electronics. After 2nd year, I got a chance to be the part of ECESOC, it helped me a lot in building my personality and the guidance from seniors helped me to evolve into my career. It has been a journey worth all my efforts. Currently, I am an Analog and mixed-signal design Engineer at Synopsys. I’m in love with my profession because I always wanted to be here. My only suggestion for the juniors would be to dream big, it is the only thing that gives life its purpose and direction. I believe in one thing, that hard work can achieve anything if it comes with a strong dedication towards work.",
       linkedin:"https://www.linkedin.com/in/pawan-kumar-sahu-077452178/"
     },
     {
@@ -39,7 +39,7 @@ const alumniDetailsk15=[{
   name: "Kumar Ankit",
   company: "STMicroelectronics",
   batch: "2k15",
-  description: "BIT MESRA, the Name itself brings a smile and a sense of pride in me. It gave a perfect moulding to my life in all sense, the journey and the people I came in contact with have made me a better person.I would not lie saying I had interest in electronics from early times. All I had interested in science and wanted to do engineering; landed in ECE in 2nd year and then somehow the application based study intrigued me. I am currently working as a VLSI Design Engineer in STMicroelectronics, Gr Noida post my internship here itself.",
+  description: "BIT MESRA, the Name itself brings a smile and a sense of pride in me. It gave a perfect moulding to my life in all senses, the journey and the people I came in contact with have made me a better person. I would not lie, saying that I had an interest in electronics from early times. All I had was  interest in science and wanted to do engineering and then I landed in ECE in 2nd year and thatshow the application-based study intrigued me. I am currently working as a VLSI Design Engineer in STMicroelectronics, Gr Noida post my internship here itself.",
   linkedin:"https://www.linkedin.com/in/kumar-ankit/"
 },
 {
@@ -47,7 +47,7 @@ const alumniDetailsk15=[{
   company: "Mentor Graphics",
   batch: "2k15",
   description:
-    "The undergraduate phase of one's life is the most blissful part and also loaded with responsibilities. The four years in ECE was like a journey of roller coaster, full of enthusiasm and excitement. ECE Society nurtured me and the guidance from seniors helped me evolve in my career.I found some of the best friends in BIT. Currently I am working in Mentor Graphics as Member of Technical Staff in Verification IP and worked as an intern in Infineon Technologies for six months. I always feel privileged to work in the industry which I dreamt of. One of my best decisions was to pursue the core electronics and remain focused on it.The only advice to my juniors out there, do what you feel passionate about and enjoy each and every moment of your college life.It 's Superb!!!!",
+    "The undergraduate phase of one's life is the most blissful part and also loaded with lots of responsibilities. The four years in ECE was like a journey of the roller coaster, full of enthusiasm and excitement. ECE Society nurtured me with positivity and the guidance from seniors helped me to evolve into my career. I found some of the best friends in BIT. Currently, I am working in Mentor Graphics as a Member of Technical Staff in Verification IP and worked as an intern in Infineon Technologies for six months. I always felt privileged to work in the industry, that I dreamt of. One of my best decision was to pursue core electronics and remain focused on it. The only advice to my juniors out there, do what you feel passionate about and enjoy every moment of your college life. It's Superb!!!!",
     linkedin:"https://www.linkedin.com/in/om-prakash-561484129/"
   },
   {

@@ -60,14 +60,14 @@ const comingEvents=[
 // fblink:"https://www.facebook.com/1690801124494928/posts/2759457177629312/?sfnsn=wiwspmo&extid=w7zIUFR4I8f9KFXB",
 // instalink:"https://www.instagram.com/p/CDsqKPzgyvv/?igshid=9zcyc2o8u19r"
 // }
-{
-  name:"Induction",
-  src:"Induction",
-  rlink:"https://forms.gle/5B9RGPFv1Aoerw2J7",
-  details:["Hi, k20s!","Let's get this rolling...","You might not have had the ideal start to your college life, but as everything else around us adapts to the new normal, so do we.","Having a tough time studying Electronics? Having second thoughts about choosing this branch already? We at ECE Society are here to help you out, and guide you through your journey with this seemingly tough but incredibly interesting subject.","Be there!","Time: 4:00 PM","Date: 10th January, 2021","Platform: Google meet","Submit your response by 9th January, 2021 before 11:59 PM and you will get the link of the meeting through the mail by Sunday morning"],
-  fblink:"https://www.facebook.com/1690801124494928/posts/2895082000733495/",
-  instalink:"https://www.instagram.com/p/CJs7AdjAxHU/?igshid=ft4s9cq3rekh"
-  }
+// {
+//   name:"Induction",
+//   src:"Induction",
+//   rlink:"https://forms.gle/5B9RGPFv1Aoerw2J7",
+//   details:["Hi, k20s!","Let's get this rolling...","You might not have had the ideal start to your college life, but as everything else around us adapts to the new normal, so do we.","Having a tough time studying Electronics? Having second thoughts about choosing this branch already? We at ECE Society are here to help you out, and guide you through your journey with this seemingly tough but incredibly interesting subject.","Be there!","Time: 4:00 PM","Date: 10th January, 2021","Platform: Google meet","Submit your response by 9th January, 2021 before 11:59 PM and you will get the link of the meeting through the mail by Sunday morning"],
+//   fblink:"https://www.facebook.com/1690801124494928/posts/2895082000733495/",
+//   instalink:"https://www.instagram.com/p/CJs7AdjAxHU/?igshid=ft4s9cq3rekh"
+//   }
 ];
 
 export {pastEvents, ongoingEvents, comingEvents};
