@@ -7,10 +7,10 @@ function eachEvent({name,Participants,src,Description,fblink,instalink},index){
 const imgAddress="images/events/"+src+".jpg";
   return(
     <div key={index} className="row">
-      <div className="col-lg-5 col-md-10 events-pic">
+      <div className="col-lg-5 col-md-12 events-pic">
         <Eventpic src={imgAddress} />
       </div>
-      <div className="col-lg-7 col-md-10">
+      <div className="col-lg-7 col-md-12">
         <h1 className="event-name">{name}</h1>
         <h4>Participants: {Participants}</h4>
         <h4>Description :</h4>

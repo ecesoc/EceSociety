@@ -45,8 +45,8 @@ h5,h3,h6,h4,h1,h2{
 
 .loader-page img{
   height: auto;
-  width: 23rem;
-  margin-top: 15%;
+  width: 74vmin;
+  margin-top: 5%;
   border-color:black;
 }
 
@@ -183,7 +183,7 @@ header p:first-child{
   max-width: 500px;
   display: inline-block;
   padding: 3% ;
-  margin: 5% 7%;
+  margin: 3% 7%;
   border: black solid 2px;
   background-color: #606364;
   color: #FFFFFF;
@@ -213,7 +213,6 @@ header p:first-child{
 
 @media screen and (max-width: 1400px){
   .home-content div{
-    max-width: 450px;
-    margin: 3% 5%;
+    max-width: 100%;
   }
 }
