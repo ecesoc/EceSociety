@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/EceSociety/static/css/main.104da63a.chunk.css",
+    "main.js": "/EceSociety/static/js/main.b1a7761b.chunk.js",
+    "main.js.map": "/EceSociety/static/js/main.b1a7761b.chunk.js.map",
+    "runtime-main.js": "/EceSociety/static/js/runtime-main.d2be80af.js",
+    "runtime-main.js.map": "/EceSociety/static/js/runtime-main.d2be80af.js.map",
+    "static/js/2.f1e39758.chunk.js": "/EceSociety/static/js/2.f1e39758.chunk.js",
+    "static/js/2.f1e39758.chunk.js.map": "/EceSociety/static/js/2.f1e39758.chunk.js.map",
+    "index.html": "/EceSociety/index.html",
+    "static/css/main.104da63a.chunk.css.map": "/EceSociety/static/css/main.104da63a.chunk.css.map",
+    "static/js/2.f1e39758.chunk.js.LICENSE.txt": "/EceSociety/static/js/2.f1e39758.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2be80af.js",
+    "static/js/2.f1e39758.chunk.js",
+    "static/css/main.104da63a.chunk.css",
+    "static/js/main.b1a7761b.chunk.js"
+  ]
+}
