@@ -1,6 +1,6 @@
 {
   "name": "ecesociety",
-  "homepage": "https://ecesocbitmesra.in",
+  "homepage": "https://ecesoc.github.io/EceSociety/",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -49,9 +49,9 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shyam3107/EceSociety.git"
+    "url": "git+https://github.com/ecesoc/EceSociety.git"
   },
   "bugs": {
-    "url": "https://github.com/Shyam3107/EceSociety/issues"
+    "url": "https://github.com/ecesoc/EceSociety/issues"
   }
 }
