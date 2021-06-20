@@ -186,9 +186,9 @@ header p:first-child{
   display: inline-block;
   padding: 3% ;
   margin: 3% 7%;
-  
-  border-radius: 5rem;
-  background-color: #7e7e7e;
+  border: black solid 2px;
+  background-color: #606364;
+  box-shadow: 0 7px 7px 3px #C0C6C8;
   color: #FFFFFF;
   
 }
