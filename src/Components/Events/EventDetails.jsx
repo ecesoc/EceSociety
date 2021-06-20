@@ -1,6 +1,17 @@
 //jshint esversion:6
 
-const pastEvents = [{
+const pastEvents = [
+  {
+      name: "How to pursue Career in Electronics",
+      Participants:'approx 150',
+      src: "How to pursue Career in Electronics",
+      //rlink: "https://forms.gle/vgFwrX5uAakmsAis5",
+      Description: "In this, they presented every trace of telling about the route of electronics that ECE students would negotiate within upcoming semesters. In this workshop, seniors guided us to prefer the right route so that this quagmire of learning electronics feels like a cakewalk for us with a little planning and guidance. They provided us with every particular detail about how to accomplish this challenging journey in an interesting and fun approach. Starting from the first, they presented the opportunities on where to go, like - Campus placement, Off-Campus, M. S, M. Tech/PSUs, and MBA. They showed a list of companies which visited the campus to recruit graduates in ECE/EEE Core, like–Synopsys, Cypress, Tata Steel, etc. They did a concise description of each of the companies in the above list including the job summary, their eligibility criteria, placement processes, and compensation details. The seniors shared tips and experiences. They presented us the ECESOC Alumni Placement Record of k15 and k16 batch, which was motivating and informational. They conducted a doubt session so they could clear our confusions. This workshop had evolved the plan of our preparation and had amplified our knowledge immensely.",
+      details: ["Everyone gets tensed regarding their future career options at some point. How to prepare for interviews? What are the placement processes for different companies? Should one go for Campus Placement, Off-Campus, MBA, or PSUs?'How to pursue a career in electronics' by ECE Society BIT Mesra is the perfect opportunity for everyone, to get a clear insight about each and every minimal detail about placement processes and different career paths to pursue after engineering.","So, this is the time to psych yourself up through the guide to the right route among the litany of all the future options that you have in electronics."],
+      fblink: "https://www.facebook.com/1690801124494928/posts/2940758162832545/",
+      instalink: "https://www.instagram.com/p/CMMn2RzgljR/?igshid=1k4w8nsr030am"
+  },
+  {
   name: "Teach and Compete",
   Participants: "20",
   src: "Teach-and-compete",
@@ -50,14 +61,14 @@ const pastEvents = [{
 }];
 
 const ongoingEvents = [
-  {
-    name: "How to pursue Career in Electronics",
-    src: "How to pursue Career in Electronics",
-    rlink: "https://forms.gle/vgFwrX5uAakmsAis5",
-    details: ["Everyone gets tensed regarding their future career options at some point. How to prepare for interviews? What are the placement processes for different companies? Should one go for Campus Placement, Off-Campus, MBA, or PSUs?'How to pursue a career in electronics' by ECE Society BIT Mesra is the perfect opportunity for everyone, to get a clear insight about each and every minimal detail about placement processes and different career paths to pursue after engineering.","So, this is the time to psych yourself up through the guide to the right route among the litany of all the future options that you have in electronics."],
-    fblink: "https://www.facebook.com/1690801124494928/posts/2940758162832545/",
-    instalink: "https://www.instagram.com/p/CMMn2RzgljR/?igshid=1k4w8nsr030am"
-  }
+  
+    //name: "How to pursue Career in Electronics",
+    //src: "How to pursue Career in Electronics",
+    //rlink: "https://forms.gle/vgFwrX5uAakmsAis5",
+    //details: ["Everyone gets tensed regarding their future career options at some point. How to prepare for interviews? What are the placement processes for different companies? Should one go for Campus Placement, Off-Campus, MBA, or PSUs?'How to pursue a career in electronics' by ECE Society BIT Mesra is the perfect opportunity for everyone, to get a clear insight about each and every minimal detail about placement processes and different career paths to pursue after engineering.","So, this is the time to psych yourself up through the guide to the right route among the litany of all the future options that you have in electronics."],
+    //fblink: "https://www.facebook.com/1690801124494928/posts/2940758162832545/",
+    //instalink: "https://www.instagram.com/p/CMMn2RzgljR/?igshid=1k4w8nsr030am"
+  
   // {
   // name:"Gateway To Analog",
   // src:"Anlaog workshop",

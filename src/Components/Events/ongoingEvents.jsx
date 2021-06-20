@@ -7,6 +7,7 @@ import NoEvent from "./noEvent";
 function eachEvent({src,name, rlink,details,fblink,instalink},index){
   const imgAddress="images/events/"+src+".jpg";
   return(
+
     <div key={index} className="row">
       <div className="col-lg-5 col-md-10 events-pic">
         <Eventpic src={imgAddress} />
@@ -30,7 +31,7 @@ function OngoingEvents(){
   let eventSize=ongoingEvents.length;
   let listevents=ongoingEvents.map(eachEvent);
   return (
-    eventSize ? listevents : <NoEvent prop="Ongoing" />
+  eventSize ? listevents : <NoEvent prop="Ongoing" />
 )}
 
 export default OngoingEvents;

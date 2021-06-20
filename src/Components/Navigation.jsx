@@ -7,8 +7,7 @@ import Events from "./Events/Event";
 import About from "./About/About";
 import HeadContent from "./HeadContent";
 import Home from "./Home/Home";
-
-
+import './Navigation.css';
 function Navigation(){
   var [isClosed, setIsClosed]=useState(false);
   var toggleChange= function(){
@@ -28,11 +27,11 @@ function Navigation(){
 
     <div className="collapse navbar-collapse" id="top">
     <ul className="navbar-nav ml-auto">
-      <Link to="/"><li>HOME</li></Link>
-      <Link to="/Events"><li>EVENTS</li></Link>
-      <Link to="/members"><li>EXECUTIVE BODY</li></Link>
-      <Link to="/Alumni"><li>ALUMNI</li></Link>
-      <Link to="/About"><li>ABOUT US</li></Link>
+      <Link to="/"><li className="nav-items">HOME</li></Link>
+      <Link to="/Events"><li className="nav-items">EVENTS</li></Link>
+      <Link to="/members"><li className="nav-items">EXECUTIVE BODY</li></Link>
+      <Link to="/Alumni"><li className="nav-items">ALUMNI</li></Link>
+      <Link to="/About"><li className="nav-items">ABOUT US</li></Link>
     </ul>
     </div>
     </nav>

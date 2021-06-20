@@ -2,7 +2,7 @@
 import React from "react";
 import WhatWeDo from "../About/What-we-do";
 import Carousel from "./Carousel";
-
+import './Home.css';
 function Home (){
   return (
     <div>
@@ -12,7 +12,7 @@ function Home (){
     <div className="home-content">
       <WhatWeDo />
     <div className="about-content">
-    <strong>How will this help you</strong>
+    <strong className="inc">How will this help you</strong>
     <br/>
     <ul>
       <li><strong>Guidance on projects from various topics: </strong>We have decided to assign a project to all those who are interested. They could choose from a large range of options. We would then guide them and help them finish what they started.
