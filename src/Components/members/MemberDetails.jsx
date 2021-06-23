@@ -117,7 +117,14 @@ const membersk19=[
   {name:"Aprajita Kumari",linkedin:"https://www.linkedin.com/in/namrata-marandi-5194b71a1"}]
 }];
 
-const campusAmbassadors=[
+const campusAmbassadors=[{
+  post: "Campus Ambassador",
+  member: [{ name: "Aakansha Kumari", linkedin: "https://www.linkedin.com/in/aakansha-kumari-0875b11a3" },
+  {name: "Tejashwi Raj", linkedin: "https://www.linkedin.com/in/tejashwi-raj-a81019169"},
+  {name: "Rakshith Ramesh", linkedin: "https://www.linkedin.com/in/rakshith-ramesh-10/"},
+  {name: "Ankita Kumari", linkedin: "https://www.linkedin.com/in/ankita-kumari-a0591016a"},
+  {name: "Saurav Karmakar", linkedin: "https://www.linkedin.com/in/sauravkarmakar/"}
+  ]
+}];
 
-]
 export {membersk18 , membersk19,campusAmbassadors};
