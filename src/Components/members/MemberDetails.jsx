@@ -40,7 +40,7 @@ const membersk18=[
 {
   post:"Vice President",
   member:[{name:"Sanidhya Singh",linkedin:"https://www.linkedin.com/in/sanidhya-singh-32947a197/"},
-{name:"Harsh Malpani",linkedin:""},]
+{name:"Harsh Malpani",linkedin:"https://www.linkedin.com/in/harsh-malpani-2b773a190/"},]
 },
 {
   post:"Technical Head",
@@ -67,7 +67,7 @@ const membersk18=[
 },
 {
  post:'Web head',
- member:[{name:'Shyam Pat Singhania',linkedin:''}]
+ member:[{name:'Shyam Pat Singhania',linkedin:'https://www.linkedin.com/in/shyam-pat-singhania-77989a191/'}]
 },
 {
   post:"Event Head",

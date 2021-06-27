@@ -4,7 +4,7 @@ import React from "react";
 function WhatWeDo(){
   return (
     <div>
-    <strong className="inc">What We do</strong>
+    <strong >What We do</strong>
     <br/>
     <ul>
       <li>We conduct various workshops on both core and non-core topics, including analog electronics, computer vision etc.

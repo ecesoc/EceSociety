@@ -7,7 +7,7 @@ import Events from "./Events/Event";
 import About from "./About/About";
 import HeadContent from "./HeadContent";
 import Home from "./Home/Home";
-import './Navigation.css';
+
 function Navigation(){
   var [isClosed, setIsClosed]=useState(false);
   var toggleChange= function(){
