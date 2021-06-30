@@ -82,7 +82,7 @@ const membersk19=[
 },
 {
   post:"Joint Secretary",
-  member:[{name:"Akshat jain",linkedin:"https://www.linkedin.com/in/akshat-jain-0520"},
+  member:[{name:"Akshat Jain",linkedin:"https://www.linkedin.com/in/akshat-jain-0520"},
   {name: "Rohan Sahana",linkedin:"Electronics and Communication Engineering"}]
 },
 {
