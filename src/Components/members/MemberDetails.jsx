@@ -1,6 +1,6 @@
 //jshint esversion:6
 
-const membersk17=[
+/*const membersk17=[
   {
   post:"President",
   member:[{name:"Tanmay Gupta",linkedin:"https://www.linkedin.com/in/tanmay-gupta-207586160/"}]
@@ -31,47 +31,100 @@ const membersk17=[
   post:"Event Head",
   member:[{name:"Vivek Basant",linkedin:"https://www.linkedin.com/in/vivek-basant-09201817b/"},
   {name:"Bhavya",linkedin:"https://www.linkedin.com/in/pantam-bhavya-harika-3a88a916b/"}]
-}];
-
+}];*/
 const membersk18=[
   {
-  post:"General Secretary",
-  member:[{name:"Shekhar Satyakar",linkedin:"https://www.linkedin.com/in/shekhar-satyakar/"},
-  {name:"Harsh Malpani",linkedin:"https://www.linkedin.com/in/harsh-malpani-2b773a190/"}]
+  post:"President",
+  member:[{name:'Shekhar Satyakar',linkedin:"https://www.linkedin.com/in/shekhar-satyakar/"}]
 },
 {
-  post:"Treasurer",
-  member:[{name:"Rishi Jain",linkedin:"https://www.linkedin.com/in/rishi-jain-66632a175"}]
-},
-{
-  post:"Technical Coordinator",
+  post:"Vice President",
   member:[{name:"Sanidhya Singh",linkedin:"https://www.linkedin.com/in/sanidhya-singh-32947a197/"},
-  {name:"Shubhankar Handa",linkedin:"https://www.linkedin.com/in/shubhankar-h-686213114"},
+{name:"Harsh Malpani",linkedin:"https://www.linkedin.com/in/harsh-malpani-2b773a190/"},]
+},
+{
+  post:"Technical Head",
+  member:[ {name:"Shubhankar Handa",linkedin:"https://www.linkedin.com/in/shubhankar-h-686213114"},
   {name:"Anil Singh Negi",linkedin:"https://www.linkedin.com/in/negi-anil"},
   {name:"Shaswat Shrivastava",linkedin:"https://www.linkedin.com/in/shaswat-shrivastava-b0944b191/"}]
 },
 {
-  post:"Workshop Coordinator",
+  post:"Program Director",
   member:[{name:"Sanyam Jain",linkedin:"https://www.linkedin.com/in/sanyam-jain-13247a1a0/"},
+  {name:"Adarsh Prakash Pandey",linkedin:"https://www.linkedin.com/in/adarsh-prakash-pandey-9bba981b1/"},
+  {name:"Rishi Jain",linkedin:"https://www.linkedin.com/in/rishi-jain-66632a175"}]
+},
+{
+  post:"Workshop Head",
+  member:[{name:"Sankalp Pandey",linkedin:"https://www.linkedin.com/in/sankalp-pandey-6bb155137/"},
   {name:"Vaibhav Gupta",linkedin:"https://www.linkedin.com/in/vaibhav-gupta-554173171"},
   {name:"MD Ifham Shakil",linkedin:"https://www.linkedin.com/in/md-ifham-shakil-7ab6b9157/"}]
 },
 {
-  post:"Event Coordinator",
-  member:[{name:"Ritik Garg",linkedin:"https://www.linkedin.com/in/ritik-garg-8a6b72192/"},
-  {name:"Puneet Arora",linkedin:"https://www.linkedin.com/in/puneet-arora-4a5ba7194/"},
-  {name:"Prishiyas Parag",linkedin:"https://www.linkedin.com/in/prishiyas-parag-7b1b39199/"},
-  {name:"Adarsh Prakash Pandey",linkedin:"https://www.linkedin.com/in/adarsh-prakash-pandey-9bba981b1/"},]
-},
-{
-  post:"Web Head",
-  member:[{name:"Shyam Pat Singhania",linkedin:"https://www.linkedin.com/in/shyam-pat-singhania-77989a191"}]
-},
-{
-  post:"Design Head",
-  member:[{name:"Sankalp Pandey",linkedin:"https://www.linkedin.com/in/sankalp-pandey-6bb155137/"},
-  {name:"Vidya Sagarika Panna",linkedin:"https://www.linkedin.com/in/vidya-sagarika-panna-8348471b4/"},
+  post:'Design Head',
+  member:[  {name:"Vidya Sagarika Panna",linkedin:"https://www.linkedin.com/in/vidya-sagarika-panna-8348471b4/"},
   {name:"Namrata Marandi",linkedin:"https://www.linkedin.com/in/namrata-marandi-5194b71a1"}]
+},
+{
+ post:'Web head',
+ member:[{name:'Shyam Pat Singhania',linkedin:'https://www.linkedin.com/in/shyam-pat-singhania-77989a191/'}]
+},
+{
+  post:"Event Head",
+  member:[{name:'Ritik Garg',linkedin:'https://www.linkedin.com/in/ritik-garg-8a6b72192/'},
+  {name:"Puneet Arora",linkedin:"https://www.linkedin.com/in/puneet-arora-4a5ba7194/"},]
 }];
 
-export {membersk17 , membersk18};
+const membersk19=[
+  {
+  post:"General Secretary",
+  member:[{name:"Hemanshu Sogra",linkedin:"https://www.linkedin.com/in/hemanshu-sogra-111b551a2/"}]
+},
+{
+  post:"Joint Secretary",
+  member:[{name:"Akshat jain",linkedin:"https://www.linkedin.com/in/akshat-jain-0520"},
+  {name: "Rohan Sahana",linkedin:"Electronics and Communication Engineering"}]
+},
+{
+  post:"Treasurer",
+  member:[{name:"Kumar Utkarsh",linkedin:"https://www.linkedin.com/in/kumar-utkarsh-7336291a0"},
+  {name: "Subham Surana",linkedin:"https://www.linkedin.com/in/subham-surana-born-to-rule/" }]
+},
+{
+  post:"Technical Coordinator",
+  member:[{name:"Aditya Singh",linkedin:"https://www.linkedin.com/in/aditya-singh-9914b61a4"},
+  {name:"Harsh Tripathi",linkedin:"https://www.linkedin.com/in/harsh-tripathi-404993199/"},
+  {name:"Mahavadi Sri Shashank",linkedin:"https://www.linkedin.com/in/mahavadi-sri-shashank-a82ab3207"},
+  {name:"Saket Mishra",linkedin:"www.linkedin.com/in/saket-mishra-314a2a212"}]
+},
+{
+  post:"Web Coordinator",
+  member:[{name:"Kshitij Sharma",linkedin:"https://www.linkedin.com/in/kshitij-sharma-a53ab119b/"},
+  {name:"Vaibhav Mishra",linkedin:"https://www.linkedin.com/in/vaibhav-mishra-7006911b5/"},
+  {name:"Pranav Prakhar",linkedin:"https://www.linkedin.com/in/pranav-prakhar"}]
+},
+{
+  post:"Events Coordinator",
+  member:[{name:"Abhinav Pratap Singh",linkedin:"https://www.linkedin.com/in/abhinav-pratap-singh-2357871b3"},
+  {name:"Aamir Raza",linkedin:"www.linkedin.com/in/aamir-raza-a914001b4"},
+  {name:"Harshvardhan Agarwal",linkedin:"https://www.linkedin.com/in/harshvardhan-agrawal-b407001a1"},
+  {name:"Abhishek Raj",linkedin:"https://www.linkedin.com/in/abhishek-raj-a852aa1b0"},]
+},
+{
+  post:"Design and Content Team",
+  member:[{name:"Pinky Kumari Munda",linkedin:"https://www.linkedin.com/in/pinky-kumari-munda-008741209"},
+  {name:"Swapnil Goyal",linkedin:"https://www.linkedin.com/in/swapnil-goyal-1010"},
+  {name:"Aprajita Kumari",linkedin:"https://www.linkedin.com/in/namrata-marandi-5194b71a1"}]
+}];
+
+const campusAmbassadors=[{
+  post: "Campus Ambassador",
+  member: [{ name: "Aakansha Kumari", linkedin: "https://www.linkedin.com/in/aakansha-kumari-0875b11a3" },
+  {name: "Tejashwi Raj", linkedin: "https://www.linkedin.com/in/tejashwi-raj-a81019169"},
+  {name: "Rakshith Ramesh", linkedin: "https://www.linkedin.com/in/rakshith-ramesh-10/"},
+  {name: "Ankita Kumari", linkedin: "https://www.linkedin.com/in/ankita-kumari-a0591016a"},
+  {name: "Saurav Karmakar", linkedin: "https://www.linkedin.com/in/sauravkarmakar/"}
+  ]
+}];
+
+export {membersk18 , membersk19,campusAmbassadors};

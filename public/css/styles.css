@@ -1,3 +1,4 @@
+
 body{
   font-family: "Lato", sans-serif;
   color: #666;
@@ -72,7 +73,6 @@ h5,h3,h6,h4,h1,h2{
 
 .navbar {
     font-weight: 800;
-    font-family: 'Montserrat', sans-serif;
     padding-right: 10px;
     background-image: url("../images/header.jpg");
     background-repeat: no-repeat;
@@ -121,6 +121,8 @@ header p:first-child{
   font-size: 1.5rem;
   line-height: 3rem;
   font-weight: 200;
+  font-family: 'Poppins',sans-serif;
+  font-style: italic;
 }
 
 .menuClose , .menuOpen{
@@ -186,10 +188,15 @@ header p:first-child{
   margin: 3% 7%;
   border: black solid 2px;
   background-color: #606364;
-  color: #FFFFFF;
   box-shadow: 0 7px 7px 3px #C0C6C8;
+  color: #FFFFFF;
+  
 }
-
+.inc
+{
+  font-size:30px;
+  font-weight: bold;
+}
 .about-content:last-child{
   margin-left: 7%;
 }
