@@ -83,7 +83,7 @@ const membersk19=[
 {
   post:"Joint Secretary",
   member:[{name:"Akshat Jain",linkedin:"https://www.linkedin.com/in/akshat-jain-0520"},
-  {name: "Rohan Sahana",linkedin:"Electronics and Communication Engineering"}]
+  {name: "Rohan Sahana",linkedin:"https://www.linkedin.com/in/rohan-sahana-10120/"}]
 },
 {
   post:"Treasurer",
@@ -95,7 +95,7 @@ const membersk19=[
   member:[{name:"Aditya Singh",linkedin:"https://www.linkedin.com/in/aditya-singh-9914b61a4"},
   {name:"Harsh Tripathi",linkedin:"https://www.linkedin.com/in/harsh-tripathi-404993199/"},
   {name:"Mahavadi Sri Shashank",linkedin:"https://www.linkedin.com/in/mahavadi-sri-shashank-a82ab3207"},
-  {name:"Saket Mishra",linkedin:"www.linkedin.com/in/saket-mishra-314a2a212"}]
+  {name:"Saket Mishra",linkedin:"https://www.linkedin.com/in/saket-mishra-314a2a212/"}]
 },
 {
   post:"Web Coordinator",
@@ -106,7 +106,7 @@ const membersk19=[
 {
   post:"Events Coordinator",
   member:[{name:"Abhinav Pratap Singh",linkedin:"https://www.linkedin.com/in/abhinav-pratap-singh-2357871b3"},
-  {name:"Aamir Raza",linkedin:"www.linkedin.com/in/aamir-raza-a914001b4"},
+  {name:"Aamir Raza",linkedin:"https://www.linkedin.com/in/aamir-raza-a914001b4/"},
   {name:"Harshvardhan Agarwal",linkedin:"https://www.linkedin.com/in/harshvardhan-agrawal-b407001a1"},
   {name:"Abhishek Raj",linkedin:"https://www.linkedin.com/in/abhishek-raj-a852aa1b0"},]
 },
@@ -114,7 +114,7 @@ const membersk19=[
   post:"Design and Content Team",
   member:[{name:"Pinky Kumari Munda",linkedin:"https://www.linkedin.com/in/pinky-kumari-munda-008741209"},
   {name:"Swapnil Goyal",linkedin:"https://www.linkedin.com/in/swapnil-goyal-1010"},
-  {name:"Aprajita Kumari",linkedin:"https://www.linkedin.com/in/namrata-marandi-5194b71a1"}]
+  {name:"Aprajita Kumari",linkedin:"https://www.linkedin.com/mwlite/in/aprajita-kumari-6b1b571b0"}]
 }];
 
 const campusAmbassadors=[{
