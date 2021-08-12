@@ -7,7 +7,7 @@ import Events from "./Events/Event";
 import About from "./About/About";
 import HeadContent from "./HeadContent";
 import Home from "./Home/Home";
-
+import Techathon from "./Techathon";
 function Navigation(){
   var [isClosed, setIsClosed]=useState(false);
   var toggleChange= function(){
@@ -32,6 +32,7 @@ function Navigation(){
       <Link to="/members"><li className="nav-items">EXECUTIVE BODY</li></Link>
       <Link to="/Alumni"><li className="nav-items">ALUMNI</li></Link>
       <Link to="/About"><li className="nav-items">ABOUT US</li></Link>
+      <Link to="/Techathon"><li className="nav-items">TECH-A-THON</li></Link>
     </ul>
     </div>
     </nav>
@@ -62,7 +63,10 @@ function Navigation(){
     <HeadContent page="ABOUT US" quote="There's nothing I believe in more strongly than getting young people interested in Science and Engineering, for a better Tomorrow." />
     <About />
     </Route>
-
+    <Route path="/Techathon">
+    <HeadContent page="TECHATHON" quote="Life is like a semiconductor, neither conductor nor insulator." />
+    <Techathon />
+    </Route>
     </Switch>
     </Router>
   )
