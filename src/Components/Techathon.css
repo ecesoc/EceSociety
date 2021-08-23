@@ -1,0 +1,229 @@
+*
+{
+    max-width: 100rem;
+}
+.Main-heading
+{
+    font-size:50px;
+}
+/* ----------------------  Techathon CSS ------------------------- */
+.techathon-logo-area{
+    width:95rem;
+    height: 20rem;
+    
+}
+.techathon-logo{
+    display: block;
+    transition: none;
+    border: none;
+    margin-left:5rem;
+    padding: 3px;
+    height:30rem;
+    width:80%;
+    
+  }
+  .techathon-logo:hover{
+    transform: none;
+  }
+  .techathon-intro{
+    font-size: 1.5rem;
+    padding: 3% 3%;
+    text-align: left;
+  }
+  .techathon-intro span{
+      font-weight: 400;
+  }
+  .register-btn
+{
+    height:60px;
+    width:200px;
+    margin-left:70rem;
+    font-size:20px;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 20px;
+}
+.register-btn:hover
+{
+    background-color: grey;
+    color: black;
+}
+.make-it-large
+{
+    font-size:40px;
+    font-weight: bold;
+}
+.make-it-bold
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+  .event-list
+  {
+      font-size:22px;
+  }
+  .event-rounds
+  {
+      font-size:30px;
+      line-height: 2rem;
+      margin-top:2rem;
+  }
+  .event-rounds ul
+  {
+      margin-top:2rem;
+  }
+  .event-rounds ul li
+  {
+      padding-top: 10px;
+  }
+  .event-details
+  {
+      width:95%;
+      margin-top:40rem;
+      padding-left: 3rem;
+  }
+  .description
+  {
+      width:86%;
+      margin-top:50px;
+      padding-left:4rem;
+  }
+  .description-list
+  {
+      font-size:22px;
+      margin-top:20px;
+  }
+  .description-list li h3
+  {
+      font-weight: bold;
+      font-size: 25px;
+      margin-top:15px;
+  }
+  .description-list li 
+  {
+      margin-top:10px;
+  }
+.timeline-heading
+{
+    margin-top:30px;
+    font-size: 70px;
+    font-weight: bold;
+    padding-left:40rem;
+}
+
+.timeline {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: #000;
+  }
+  
+  .timeline__component {
+    margin: 20px 30px 20px 20px;
+  }
+  
+  .timeline__component--bg {
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__component--bottom {
+    margin-bottom: 0;
+  }
+  
+  .timeline__middle {
+    position: relative;
+    background: darkgray;
+  }
+  
+  .timeline__point {
+    position: absolute;
+    top: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: white;
+    border:2px solid grey;
+    
+    border-radius: 50%;
+  }
+  
+  /* LEAVE TILL LAST */
+  .timeline__point--bottom {
+    top: initial;
+    bottom: 0;
+  }
+  
+  .timeline__date--right {
+    text-align: right;
+  }
+  
+  .timeline__title {
+    margin: 0;
+    font-size: 23px;
+    color:#363636;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .timeline__paragraph {
+    margin-top:9px;
+    line-height: 1.5;
+    text-align: left;
+    font-size:20px;
+  }
+  .timeline__date
+  {
+      font-size:23px;
+      font-weight: bold;
+      color:#363636;
+  }
+ /*********** Techathon *********/
+.contents {
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width:100%;
+  }
+  .speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.5%;
+  }
+  .speakers-card {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1rem;
+  }
+  
+  .profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    object-fit: contain;
+  }
+  .title {
+    text-align: center;
+  }
+  .description {
+    text-align: center;
+  }
+.Guestlist-title
+{
+    font-size:60px;
+    text-align: center;
+}

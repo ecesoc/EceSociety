@@ -223,3 +223,8 @@ header p:first-child{
     max-width: 100%;
   }
 }
+.contents
+{
+  display:flex;
+  flex-wrap: wrap;
+}
