@@ -1,6 +1,8 @@
 *
 {
-    max-width: 100rem;
+   margin:0;
+   padding: 0;
+   width: default;
 }
 .Main-heading
 {
@@ -16,10 +18,10 @@
     display: block;
     transition: none;
     border: none;
-    margin-left:5rem;
+    
     padding: 3px;
     height:30rem;
-    width:80%;
+    width:100%;
     
   }
   .techathon-logo:hover{
@@ -37,12 +39,20 @@
 {
     height:60px;
     width:200px;
-    margin-left:70rem;
+    margin-left:75rem;
+    margin-top:2rem;
     font-size:20px;
     background-color: black;
     color:white;
     border: none;
     border-radius: 20px;
+    
+    
+}
+.register-btn a
+{
+  text-decoration: none;
+  color:white;
 }
 .register-btn:hover
 {
@@ -60,30 +70,49 @@
     text-decoration: underline;
 }
 
-  .event-list
-  {
-      font-size:22px;
-  }
-  .event-rounds
-  {
-      font-size:30px;
-      line-height: 2rem;
-      margin-top:2rem;
-  }
-  .event-rounds ul
-  {
-      margin-top:2rem;
-  }
-  .event-rounds ul li
-  {
-      padding-top: 10px;
-  }
-  .event-details
-  {
-      width:95%;
-      margin-top:40rem;
-      padding-left: 3rem;
-  }
+
+ .event-details
+ {
+   padding-top:40rem;
+   padding-left:3rem;
+ }
+ .event-details h1
+ {
+    font-size:36px;
+ }
+ .event-details h2
+ {
+   font-size:30px;
+ }
+ .event-list
+ {
+   font-size:23px;
+   padding-left:25px;
+ }
+ .event-list li
+ {
+   padding-top:10px;
+ }
+ .event-rounds
+ {
+  padding-left:3rem;
+ }
+ .event-rounds h3
+ {
+  font-size:35px;
+  padding-top:10px;
+ }
+ .event-rounds ul
+ {
+   padding-left:15px;
+ }
+ .event-rounds li
+ {
+  padding-top:10px;
+  font-size:22px;
+
+ }
+
   .description
   {
       width:86%;
@@ -219,9 +248,7 @@
   .title {
     text-align: center;
   }
-  .description {
-    text-align: center;
-  }
+
 .Guestlist-title
 {
     font-size:60px;

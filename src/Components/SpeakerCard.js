@@ -19,14 +19,10 @@ export default function SpeakerCard({ member }) {
 
       <h4 className="title">{title}</h4>
       <p className="description" style={{
-        marginright:'30px',
+        textAlign:'center',
+        marginright:'-50px'
       }}>{description}</p>
-      <img
-        src="/_nuxt/img/github.580dd30.svg"
-        title="GitHub"
-        alt="company logo"
-        className="company-logo"
-      />
+     
     </div>
   );
 }
