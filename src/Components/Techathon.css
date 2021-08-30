@@ -254,3 +254,13 @@
     font-size:60px;
     text-align: center;
 }
+/************************Sponsors****************************/
+.sponsor-images img{
+  transition: none;
+  margin-bottom: 16px;
+  /*max-height: 380px;
+  max-width: 380px;*/
+}
+.sponsor-images img:hover{
+  transform: none;
+}
