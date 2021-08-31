@@ -108,7 +108,7 @@
   padding-left: 25px;
 }
 
-.description-list ol{
+.description-list ol {
   margin-left: 4rem;
 }
 
@@ -238,4 +238,14 @@
 .Guestlist-title {
   font-size: 60px;
   text-align: center;
+}
+
+/************************Sponsors****************************/
+.sponsor-images img {
+  transition: none;
+  margin-bottom: 16px;
+}
+
+.sponsor-images img:hover {
+  transform: none;
 }

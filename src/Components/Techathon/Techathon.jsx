@@ -5,6 +5,7 @@ import SpeakerCard from "./SpeakerCard";
 import TimeLine from "./Timeline";
 import EventDetails from "./EventsDetails";
 import Description from "./Description";
+import Sponsors from "./Sponsors";
 
 const CustomHr = () => {
   return <hr style={{ width: "95vw" }} />;
@@ -63,6 +64,7 @@ export default function Techathon() {
           ))}
         </div>
       </div> */}
+      <Sponsors />
     </div>
   );
 }
