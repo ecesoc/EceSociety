@@ -21,7 +21,7 @@ export default function Techathon() {
         />
         <div style={{ textAlign: "right", marginRight: "4%" }}>
           <a
-            href="https://dare2compete.com/quiz/tech-a-thon-birla-institute-of-technology-bit-mesra-ranchi-193966?refId=sI6ijqy"
+            href="https://dare2compete.com/o/LWemDBl?refId=sI6ijqy"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,8 +54,8 @@ export default function Techathon() {
       <TimeLine />
       <CustomHr />
       <Description />
-      <CustomHr />
-      <Guest />
+      {/* <CustomHr />
+      <Guest /> */}
       <CustomHr />
       <Sponsors />
     </div>

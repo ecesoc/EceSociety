@@ -108,7 +108,7 @@ function Navigation() {
         </Route>
         <Route path="/Techathon">
           <HeadContent
-            page="TECHATHON"
+            page="TECH-A-THON"
             quote="Life is like a semiconductor, neither conductor nor insulator."
           />
           <Techathon />

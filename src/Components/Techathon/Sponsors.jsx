@@ -18,7 +18,7 @@ const sponsorsList = [
   },
   {
     imgName: "code_warriors",
-    link: "",
+    link: "https://codewarriors.in/",
   },
 ];
 
