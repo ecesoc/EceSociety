@@ -241,6 +241,10 @@
 }
 
 /************************Sponsors****************************/
+.sponsor-images{
+  justify-content: center;
+}
+
 .sponsor-images img {
   transition: none;
   margin-bottom: 16px;

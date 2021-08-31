@@ -1,60 +1,51 @@
-
+const sponsorsList = [
+  {
+    imgName: "foxmula",
+    link: "https://foxmula.com/",
+  },
+  {
+    imgName: "groww",
+    link: "https://groww.in/",
+  },
+  {
+    imgName: "herody",
+    link: "https://herody.in/",
+  },
+  {
+    imgName: "green_horizon",
+    link: "https://www.hotelgreenhorizon.com/",
+    type: "png",
+  },
+  {
+    imgName: "code_warriors",
+    link: "",
+  },
+];
 
 export default function Sponsors() {
   return (
-    <section className="sponsors">
-      <h1 className="Guestlist-title">Sponsors</h1>
-      <br />
-      <div className="sponsor-images">
-        <div className="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-            <a href="https://foxmula.com/">
-              <img
-                src="images/sponsors/sponsor1.jpg"
-                class="img-fluid"
-                alt=" sponsor image"
-              />
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-            <a href="">
-              <img
-                src="images/sponsors/sponsor2.jpg"
-                class="img-fluid"
-                alt=" sponsor image"
-              />
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-            <a href="https://groww.in/">
-              <img
-                src="images/sponsors/sponsor3.jpg"
-                class="img-fluid"
-                alt=" sponsor image"
-              />
-            </a>
-          </div>
-        </div>
-        <div className="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-            <a href="https://herody.in/">
-              <img
-                src="images/sponsors/sponsor4.jpg"
-                class="img-fluid"
-                alt=" sponsor image"
-              />
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 col-12">
-            <a href="https://www.hotelgreenhorizon.com/">
-              <img
-                src="images/sponsors/sponsor5.png"
-                class="img-fluid"
-                alt=" sponsor image"
-              />
-            </a>
-          </div>
-        </div>
+    <section>
+      <h1 style={{ marginLeft: "3%" }}>Sponsors</h1>
+      <div className="row sponsor-images">
+        {sponsorsList.map((item, index) => {
+          return (
+            <div
+              className="col-lg-2 col-md-3 col-sm-4"
+              style={{ textAlign: "center" }}
+              key={index}
+            >
+              <a href={item.link}>
+                <img
+                  src={`images/sponsors/${item.imgName}.${
+                    item.type ? item.type : "jpg"
+                  }`}
+                  style={{ width: "150px", height: "auto" }}
+                  alt={item.imgName}
+                />
+              </a>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

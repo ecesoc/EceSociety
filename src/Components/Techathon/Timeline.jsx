@@ -61,6 +61,7 @@ export default function TimeLine() {
                     fontSize: "1.5rem",
                     fontWeight: "600",
                     fontFamily: "none",
+                    wordBreak: "break-all",
                   }}
                 >
                   {item.date}
@@ -76,7 +77,8 @@ export default function TimeLine() {
                   style={{
                     padding: "6px",
                     textAlign: "center",
-                    margin:'20px 0'
+                    margin: "20px 0",
+                    wordBreak: "break-all",
                   }}
                 >
                   <Typography
@@ -92,7 +94,7 @@ export default function TimeLine() {
                   <Typography
                     style={{
                       fontFamily: "none",
-                      fontSize:'1.2rem'
+                      fontSize: "1.2rem",
                     }}
                   >
                     {item.content}

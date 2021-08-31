@@ -62,7 +62,7 @@ export default function EventDetails() {
         <ul>
           {rounds.map((val, index) => {
             return (
-              <li>
+              <li key={index}>
                 <h4 style={{ textAlign: "left" }}>
                   <span className="make-it-bold">ROUND - {index + 1}:</span>{" "}
                   {val}

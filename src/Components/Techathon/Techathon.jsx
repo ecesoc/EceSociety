@@ -1,11 +1,10 @@
 import React from "react";
 import "./styles.css";
-import { members } from "../../utils/members";
-import SpeakerCard from "./SpeakerCard";
 import TimeLine from "./Timeline";
 import EventDetails from "./EventsDetails";
 import Description from "./Description";
 import Sponsors from "./Sponsors";
+import Guest from "./Guests";
 
 const CustomHr = () => {
   return <hr style={{ width: "95vw" }} />;
@@ -56,14 +55,8 @@ export default function Techathon() {
       <CustomHr />
       <Description />
       <CustomHr />
-      {/* <h1 className="Guestlist-title">Guest List</h1>
-      <div className="contents">
-        <div className="speakers-grid">
-          {members.map((member, index) => (
-            <SpeakerCard key={index} member={member} />
-          ))}
-        </div>
-      </div> */}
+      <Guest />
+      <CustomHr />
       <Sponsors />
     </div>
   );
