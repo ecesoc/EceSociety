@@ -54,8 +54,8 @@ export default function Techathon() {
       <TimeLine />
       <CustomHr />
       <Description />
-      {/* <CustomHr />
-      <Guest /> */}
+      {/* <CustomHr />  */}
+      <Guest />
       <CustomHr />
       <Sponsors />
     </div>

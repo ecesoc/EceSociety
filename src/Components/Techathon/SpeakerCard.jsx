@@ -6,10 +6,10 @@ export default function SpeakerCard({ member }) {
     <div
       className="speakers-card col-lg-2 col-md-3 col-sm-4"
       style={{
-        width: "300px",
-        height: "320px",
+        width: "500px",
+        height: "420px",
         borderRadius: "10px",
-        marginTop:'-1%'
+        marginTop: "-1%",
       }}
     >
       <a href={link} target="_blank" rel="noopener noreferrer">
