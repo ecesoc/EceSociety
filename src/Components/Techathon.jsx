@@ -270,6 +270,28 @@ export default function Techathon() {
                                 <img src="images/sponsors/sponsor5.png" class="img-fluid" alt=' sponsor image' />
                             </a>
                         </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="https://bluehillpublications.in/">
+                                <img src="images/sponsors/sponsor6.jpg" class="img-fluid" alt=' sponsor image' />
+                            </a>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="https://floxus.co/">
+                                <img src="images/sponsors/sponsor7.png" class="img-fluid" alt=' sponsor image' />
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="https://ieijscjharkhand.org/">
+                                <img src="images/sponsors/sponsor8.jpg" class="img-fluid" alt=' sponsor image' />
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+                            <a href="https://techienest.in/">
+                                <img src="images/sponsors/sponsor9.jpg" class="img-fluid" alt=' sponsor image' />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
