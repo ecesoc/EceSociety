@@ -236,10 +236,11 @@
   text-align: center;
 }
 
-.Guestlist-title,.Prize-list-title {
+.Guestlist-title {
   font-size: 60px;
   text-align: center;
 }
+
 
 /************************Sponsors****************************/
 .sponsor-images {
@@ -254,8 +255,12 @@
 .sponsor-images img:hover {
   transform: none;
 }
-/*Prizes area*/
-
+/*------------------Prizes Area------------------------------*/
+.Prize-list-title
+{
+  padding-left:30px;
+  padding-top:15px;
+}
 .prize-area
 {
   padding-left: 35px;
