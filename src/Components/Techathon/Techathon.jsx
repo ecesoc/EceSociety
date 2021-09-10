@@ -5,6 +5,7 @@ import EventDetails from "./EventsDetails";
 import Description from "./Description";
 import Sponsors from "./Sponsors";
 import Guest from "./Guests";
+import Prizes from "./Prizes";
 
 const CustomHr = () => {
   return <hr style={{ width: "95vw" }} />;
@@ -58,6 +59,10 @@ export default function Techathon() {
       <Guest />
       <CustomHr />
       <Sponsors />
+      <CustomHr />
+      <Prizes />
+      <br />
+      <br />
     </div>
   );
 }

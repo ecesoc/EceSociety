@@ -254,3 +254,25 @@
 .sponsor-images img:hover {
   transform: none;
 }
+
+/*------------------Prizes Area------------------------------*/
+.Prize-list-title
+{
+  padding-left:30px;
+  padding-top:15px;
+}
+.prize-area
+{
+  padding-left: 35px;
+}
+.prizes
+{
+  font-size:30px;
+  padding-top:50px;
+  padding-left: 35px;
+}
+.prize-area h2
+{
+  font-size:25px;
+  padding-left:4px;
+}
