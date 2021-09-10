@@ -209,6 +209,7 @@
   flex-direction: row;
   max-width: 100%;
 }
+
 .speakers-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -216,14 +217,14 @@
   justify-content: space-between;
   margin: 2.5%;
 }
+
 .speakers-card {
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 20px;
   border: 1px solid black;
-  padding: 1rem;
   width: 500px;
+  max-height: 440px;
+  border-radius: 10px;
+  overflow-y: auto;
 }
 
 .profile-pic {
@@ -256,23 +257,19 @@
 }
 
 /*------------------Prizes Area------------------------------*/
-.Prize-list-title
-{
-  padding-left:30px;
-  padding-top:15px;
+.Prize-list-title {
+  padding-left: 30px;
+  padding-top: 15px;
 }
-.prize-area
-{
+.prize-area {
   padding-left: 35px;
 }
-.prizes
-{
-  font-size:30px;
-  padding-top:50px;
+.prizes {
+  font-size: 30px;
+  padding-top: 10px;
   padding-left: 35px;
 }
-.prize-area h2
-{
-  font-size:25px;
-  padding-left:4px;
+.prize-area h2 {
+  font-size: 25px;
+  padding-left: 4px;
 }

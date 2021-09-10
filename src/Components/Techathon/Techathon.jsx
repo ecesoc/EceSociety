@@ -55,12 +55,12 @@ export default function Techathon() {
       <TimeLine />
       <CustomHr />
       <Description />
-      {/* <CustomHr />  */}
+      <CustomHr /> 
+      <Prizes />
+      <CustomHr />
       <Guest />
       <CustomHr />
       <Sponsors />
-      <CustomHr />
-      <Prizes />
       <br />
       <br />
     </div>
