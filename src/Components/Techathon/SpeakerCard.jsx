@@ -23,7 +23,14 @@ export default function SpeakerCard({ member }) {
         </div>
       </a>
 
-      <h4>{title}</h4>
+      <h4
+        style={{
+          textAlign: "center",
+          marginright: "-50px",
+        }}
+      >
+        {title}
+      </h4>
       <p
         style={{
           textAlign: "center",
