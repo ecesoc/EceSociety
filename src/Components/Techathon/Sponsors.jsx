@@ -20,6 +20,22 @@ const sponsorsList = [
     imgName: "code_warriors",
     link: "https://codewarriors.in/",
   },
+  {
+    imgName: "Bluehill",
+    link: "https://bluehillpublications.in/",
+  },
+  {
+    imgName: "Floxus",
+    link: "https://floxus.co/",
+  },
+  {
+    imgName: "institute_of_engg",
+    link: "https://ieijscjharkhand.org/",
+  },
+  {
+    imgName: "TechieNest",
+    link: "https://techienest.in/",
+  },
 ];
 
 export default function Sponsors() {

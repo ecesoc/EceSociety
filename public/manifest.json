@@ -1,16 +1,48 @@
 {
-    "short_name": "ECE Society",
-    "name": "ECE Society",
-    "icons": [
-      {
-        "src": "/images/logo_fav.png",
-        "sizes": "192x192 64x64 32x32 24x24 16x16",
-        "type": "image/png"
-      }
-    ],
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
-  }
-  
+  "short_name": "ECE Society",
+  "name": "ECE Society",
+  "description": "ECE Society BIT Mesra aims to provide a platform where electronics enthusiasts can come together and learn this vast and interesting subject.",
+  "icons": [
+    {
+      "src": "/images/logo/logo (16x16).png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/logo (24x24).png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/logo (32x32).png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/logo (64x64).png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/logo (192x192).png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/logo/logo (256x256).png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/logo (512x512).png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "scope": ".",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,4 +1,4 @@
-const version = 1;
+const version = 2;
 let STATIC_CACHE = "static_cache_v" + version;
 let DYNAMIC_CACHE = "dynamic-cache";
 
