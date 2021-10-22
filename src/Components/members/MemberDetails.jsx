@@ -44,7 +44,7 @@ const membersk18=[
 },
 {
   post:"Technical Head",
-  member:[ {name:"Shubhankar Handa",linkedin:"https://www.linkedin.com/in/shubhankar-h-686213114"},
+  member:[ {name:"Shubhankar Handa",linkedin:"https://www.linkedin.com/in/shubhankar-h-686213114",ext:'.JPG'},
   {name:"Anil Singh Negi",linkedin:"https://www.linkedin.com/in/negi-anil"},
   {name:"Shaswat Shrivastava",linkedin:"https://www.linkedin.com/in/shaswat-shrivastava-b0944b191/"}]
 },
@@ -63,7 +63,7 @@ const membersk18=[
 {
   post:'Design Head',
   member:[  {name:"Vidya Sagarika Panna",linkedin:"https://www.linkedin.com/in/vidya-sagarika-panna-8348471b4/"},
-  {name:"Namrata Marandi",linkedin:"https://www.linkedin.com/in/namrata-marandi-5194b71a1"}]
+  {name:"Namrata Marandi",linkedin:"https://www.linkedin.com/in/namrata-marandi-5194b71a1",ext:'.JPG'}]
 },
 {
  post:'Web head',
