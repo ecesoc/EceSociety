@@ -88,7 +88,7 @@ const membersk19=[
 {
   post:"Treasurer",
   member:[{name:"Kumar Utkarsh",linkedin:"https://www.linkedin.com/in/kumar-utkarsh-7336291a0"},
-  {name: "Subham Surana",linkedin:"https://www.linkedin.com/in/subham-surana-born-to-rule/" }]
+  {name: "Subham Surana",linkedin:"https://www.linkedin.com/in/subham-surana/" }]
 },
 {
   post:"Technical Coordinator",
@@ -99,7 +99,7 @@ const membersk19=[
 },
 {
   post:"Web Coordinator",
-  member:[{name:"Kshitij Sharma",linkedin:"https://www.linkedin.com/in/kshitij-sharma-a53ab119b/"},
+  member:[{name:"Kshitij Sharma",linkedin:"https://www.linkedin.com/in/kshitijsharma19/"},
   {name:"Vaibhav Mishra",linkedin:"https://www.linkedin.com/in/vaibhav-mishra-7006911b5/"},
   {name:"Pranav Prakhar",linkedin:"https://www.linkedin.com/in/pranav-prakhar"}]
 },

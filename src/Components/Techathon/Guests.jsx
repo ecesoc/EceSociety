@@ -4,13 +4,16 @@ import "./styles.css";
 
 export default function Guest() {
   return (
-    <section>
-      <h1 style={{ marginLeft: "3%" }}>Guest List</h1>
-      <div className="row sponsor-images">
+    <div className="guest-area">
+      <h1 style={{ marginLeft: "4%", marginBottom: "2%",fontSize:'40px' }}>Guest List</h1>
+      <div className="speakers-grid">
         {members.map((member, index) => (
-          <SpeakerCard key={index} member={member} />
+          <>
+            <SpeakerCard key={index} member={member} />
+           
+          </>
         ))}
       </div>
-    </section>
+    </div>
   );
 }

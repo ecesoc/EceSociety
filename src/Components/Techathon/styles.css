@@ -6,6 +6,7 @@
 .Main-heading {
   font-size: 50px;
 }
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 /* ----------------------  Techathon CSS ------------------------- */
 
 .techathon-logo {
@@ -30,12 +31,13 @@
 }
 
 .register-btn {
-  height: 60px;
-  width: 200px;
+  height: 70px;
+  width: 230px;
   margin-top: 1rem;
   font-size: 20px;
   background-color: black;
   color: white;
+  font-family: 'Montserrat',sans-serif;
   border-radius: 20px;
 }
 
@@ -212,31 +214,104 @@
 
 .speakers-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 2fr);
   align-items: center;
-  justify-content: space-between;
-  margin: 2.5%;
+  justify-content:space-between;
+  grid-row-start: auto;
+  grid-row-end: auto;
+  row-gap: 20px;
+
+}
+.speaker-pic
+{
+  border:none;
+  height: auto;
+  max-height: 350px;
+  width: 100%;
+  
+
+}
+.speaker-card
+{
+  width:326px;
+  height:500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color:#000;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px 15px 0px 0px;
+  
+  
+}
+.speaker-pic-info{
+  position: relative;
+}
+.speaker-pic
+{
+  width:100%;
+  height:350px;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.speakers-card {
-  margin: 20px;
-  border: 1px solid black;
-  width: 500px;
-  max-height: 440px;
-  border-radius: 10px;
-  overflow-y: auto;
+.speaker-name
+{
+  
+  font-size:28px;
+  padding-top:15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  
+}
+.speaker-info
+{
+  display: flex;
+  flex-direction: column;
+}
+.speaker-title
+{
+  font-size:20px;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 10px;
+  padding-left:20px;
+  font-style: italic;
+   
+}
+.speaker-description
+{
+  
+  font-size:26px;
+  color:white;
+  height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-style: italic; 
+  font-weight: 300; 
+  text-align: center;
+  position: absolute;
+  top:0px;
+  opacity: 0;
+  background: rgba(0,0,0,0.8);
+  border-radius: 15px 15px 0px 0px;
 }
 
-.profile-pic {
-  height: 300px;
-  width: 300px;
-  border-radius: 100%;
-  object-fit: contain;
+.speaker-description:hover{
+  opacity: 1;
+}
+.guest-area
+{
+  margin-top:40px;
+  margin-bottom: 60px;
 }
 .title {
   text-align: justify;
 }
-
+.speaker-link:hover
+{
+  text-decoration: none;
+}
 .Guestlist-title {
   font-size: 20px;
   text-align: center;
@@ -244,16 +319,28 @@
 
 /************************Sponsors****************************/
 .sponsor-images {
-  justify-content: center;
+  margin-left:50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  object-fit: cover;
 }
 
 .sponsor-images img {
   transition: none;
-  margin-bottom: 16px;
+}
+.sponsor-image
+{
+   width:250px;
+   height:250px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-left:40px;
+   margin-bottom:60px;
+
 }
 
 .sponsor-images img:hover {
-  transform: none;
+  transform: scale(1.1)
 }
 
 /*------------------Prizes Area------------------------------*/
@@ -273,3 +360,4 @@
   font-size: 25px;
   padding-left: 4px;
 }
+

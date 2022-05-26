@@ -45,17 +45,13 @@ export default function Sponsors() {
       <div className="row sponsor-images">
         {sponsorsList.map((item, index) => {
           return (
-            <div
-              className="col-lg-2 col-md-3 col-sm-4"
-              style={{ textAlign: "center" }}
-              key={index}
-            >
+            <div className="sponsor">
               <a href={item.link}>
                 <img
+                 className="sponsor-image"
                   src={`images/sponsors/${item.imgName}.${
                     item.type ? item.type : "jpg"
                   }`}
-                  style={{ width: "150px", height: "auto" }}
                   alt={item.imgName}
                 />
               </a>
@@ -65,4 +61,13 @@ export default function Sponsors() {
       </div>
     </section>
   );
+}
+{
+  /*<div
+              className="col-lg-2 col-md-3 col-sm-4"
+              style={{ textAlign: "center" }}
+              key={index}
+            >
+
+            </div>*/
 }
