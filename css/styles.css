@@ -1,14 +1,15 @@
+
 body {
   font-family: "Lato", sans-serif;
   color: #666;
 }
 
-img {
+.person-pic {
   transition: all 1s;
   border: 3px #696e6a solid;
 }
 
-img:hover {
+.person-pic:hover {
   transform: scale(1.1);
 }
 
@@ -22,19 +23,12 @@ p {
   padding-left: 3%;
 }
 
-.row,
+
 .post-title {
   margin: 3% 2% 0 3%;
+
 }
 
-h5,
-h3,
-h6,
-h4,
-h1,
-h2 {
-  text-align: justify;
-}
 
 /************Loader********/
 .loader-page {
