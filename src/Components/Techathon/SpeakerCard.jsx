@@ -8,7 +8,7 @@ export default function SpeakerCard({ member }) {
       <div className="speaker-pic-info">
       <img
         className="speaker-pic"
-        alt="nahi mili"
+        alt="not found"
         src={`/images/members/${image}`}
       />
        <p className="speaker-description">"{description}"</p>
