@@ -10,6 +10,7 @@ img {
 
 img:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 hr {
@@ -110,6 +111,7 @@ nav button {
   transform: scale(1.2);
   box-shadow: 0 0 4px 3px white;
   border-radius: 10%;
+  cursor: pointer;
 }
 
 header {
@@ -223,6 +225,7 @@ header p:first-child {
 
 .ctr:hover {
   color: #4b4f57;
+  cursor: pointer;
 }
 .ctr:active {
   color: #191919;
@@ -240,4 +243,10 @@ header p:first-child {
 .contents {
   display: flex;
   flex-wrap: wrap;
+}
+.change-member:hover{
+  cursor: pointer;
+}
+.event-List:hover{
+  cursor: pointer;
 }

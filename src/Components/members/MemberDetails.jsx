@@ -32,89 +32,143 @@
   member:[{name:"Vivek Basant",linkedin:"https://www.linkedin.com/in/vivek-basant-09201817b/"},
   {name:"Bhavya",linkedin:"https://www.linkedin.com/in/pantam-bhavya-harika-3a88a916b/"}]
 }];*/
-const membersk18=[
-  {
-  post:"President",
-  member:[{name:'Shekhar Satyakar',linkedin:"https://www.linkedin.com/in/shekhar-satyakar/"}]
-},
-{
-  post:"Vice President",
-  member:[{name:"Sanidhya Singh",linkedin:"https://www.linkedin.com/in/sanidhya-singh-32947a197/"},
-{name:"Harsh Malpani",linkedin:"https://www.linkedin.com/in/harsh-malpani-2b773a190/"},]
-},
-{
-  post:"Technical Head",
-  member:[ {name:"Shubhankar Handa",linkedin:"https://www.linkedin.com/in/shubhankar-h-686213114",ext:'.JPG'},
-  {name:"Anil Singh Negi",linkedin:"https://www.linkedin.com/in/negi-anil"},
-  {name:"Shaswat Shrivastava",linkedin:"https://www.linkedin.com/in/shaswat-shrivastava-b0944b191/"}]
-},
-{
-  post:"Program Director",
-  member:[{name:"Sanyam Jain",linkedin:"https://www.linkedin.com/in/sanyam-jain-13247a1a0/"},
-  {name:"Adarsh Prakash Pandey",linkedin:"https://www.linkedin.com/in/adarsh-prakash-pandey-9bba981b1/"},
-  {name:"Rishi Jain",linkedin:"https://www.linkedin.com/in/rishi-jain-66632a175"}]
-},
-{
-  post:"Workshop Head",
-  member:[{name:"Sankalp Pandey",linkedin:"https://www.linkedin.com/in/sankalp-pandey-6bb155137/"},
-  {name:"Vaibhav Gupta",linkedin:"https://www.linkedin.com/in/vaibhav-gupta-554173171"},
-  {name:"MD Ifham Shakil",linkedin:"https://www.linkedin.com/in/md-ifham-shakil-7ab6b9157/"}]
-},
-{
-  post:'Design Head',
-  member:[  {name:"Vidya Sagarika Panna",linkedin:"https://www.linkedin.com/in/vidya-sagarika-panna-8348471b4/"},
-  {name:"Namrata Marandi",linkedin:"https://www.linkedin.com/in/namrata-marandi-5194b71a1",ext:'.JPG'}]
-},
-{
- post:'Web head',
- member:[{name:'Shyam Pat Singhania',linkedin:'https://www.linkedin.com/in/shyam-pat-singhania-77989a191/'}]
-},
-{
-  post:"Event Head",
-  member:[{name:'Ritik Garg',linkedin:'https://www.linkedin.com/in/ritik-garg-8a6b72192/'},
-  {name:"Puneet Arora",linkedin:"https://www.linkedin.com/in/puneet-arora-4a5ba7194/"},]
-}];
+
+//*****************k18****************************
+
+// const membersk18=[
+//   {
+//   post:"President",
+//   member:[{name:'Shekhar Satyakar',linkedin:"https://www.linkedin.com/in/shekhar-satyakar/"}]
+// },
+// {
+//   post:"Vice President",
+//   member:[{name:"Sanidhya Singh",linkedin:"https://www.linkedin.com/in/sanidhya-singh-32947a197/"},
+// {name:"Harsh Malpani",linkedin:"https://www.linkedin.com/in/harsh-malpani-2b773a190/"},]
+// },
+// {
+//   post:"Technical Head",
+//   member:[ {name:"Shubhankar Handa",linkedin:"https://www.linkedin.com/in/shubhankar-h-686213114",ext:'.JPG'},
+//   {name:"Anil Singh Negi",linkedin:"https://www.linkedin.com/in/negi-anil"},
+//   {name:"Shaswat Shrivastava",linkedin:"https://www.linkedin.com/in/shaswat-shrivastava-b0944b191/"}]
+// },
+// {
+//   post:"Program Director",
+//   member:[{name:"Sanyam Jain",linkedin:"https://www.linkedin.com/in/sanyam-jain-13247a1a0/"},
+//   {name:"Adarsh Prakash Pandey",linkedin:"https://www.linkedin.com/in/adarsh-prakash-pandey-9bba981b1/"},
+//   {name:"Rishi Jain",linkedin:"https://www.linkedin.com/in/rishi-jain-66632a175"}]
+// },
+// {
+//   post:"Workshop Head",
+//   member:[{name:"Sankalp Pandey",linkedin:"https://www.linkedin.com/in/sankalp-pandey-6bb155137/"},
+//   {name:"Vaibhav Gupta",linkedin:"https://www.linkedin.com/in/vaibhav-gupta-554173171"},
+//   {name:"MD Ifham Shakil",linkedin:"https://www.linkedin.com/in/md-ifham-shakil-7ab6b9157/"}]
+// },
+// {
+//   post:'Design Head',
+//   member:[  {name:"Vidya Sagarika Panna",linkedin:"https://www.linkedin.com/in/vidya-sagarika-panna-8348471b4/"},
+//   {name:"Namrata Marandi",linkedin:"https://www.linkedin.com/in/namrata-marandi-5194b71a1",ext:'.JPG'}]
+// },
+// {
+//  post:'Web head',
+//  member:[{name:'Shyam Pat Singhania',linkedin:'https://www.linkedin.com/in/shyam-pat-singhania-77989a191/'}]
+// },
+// {
+//   post:"Event Head",
+//   member:[{name:'Ritik Garg',linkedin:'https://www.linkedin.com/in/ritik-garg-8a6b72192/'},
+//   {name:"Puneet Arora",linkedin:"https://www.linkedin.com/in/puneet-arora-4a5ba7194/"},]
+// }];
+
+
+
+//***************k19********************** */
+
 
 const membersk19=[
   {
-  post:"General Secretary",
-  member:[{name:"Hemanshu Sogra",linkedin:"https://www.linkedin.com/in/hemanshu-sogra-111b551a2/"}]
+  post:"President",
+  member:[{name:'KUMAR UTKARSH',linkedin:"https://www.linkedin.com/in/kumar-utkarsh-7336291a0"}]
 },
 {
-  post:"Joint Secretary",
-  member:[{name:"Akshat Jain",linkedin:"https://www.linkedin.com/in/akshat-jain-0520"},
-  {name: "Rohan Sahana",linkedin:"https://www.linkedin.com/in/rohan-sahana-10120/"}]
+  post:"Vice President",
+  member:[{name:"Hemanshu Sogra",linkedin:"https://www.linkedin.com/in/hemanshu-sogra-111b551a2/"},
+{name:"Akshat Jain",linkedin:"https://www.linkedin.com/in/akshat-jain-0520"},]
 },
 {
-  post:"Treasurer",
-  member:[{name:"Kumar Utkarsh",linkedin:"https://www.linkedin.com/in/kumar-utkarsh-7336291a0"},
-  {name: "Subham Surana",linkedin:"https://www.linkedin.com/in/subham-surana-born-to-rule/" }]
+  post:"Technical Head",
+  member:[ {name:"Harsh Tripathi",linkedin:"https://www.linkedin.com/in/harsh-tripathi-404993199/",ext:'.JPG'},
+  {name:"Mahavadi Shri Shashank",linkedin:"https://www.linkedin.com/in/mahavadi-sri-shashank-a82ab3207"},
+  {name:"Amir Raza",linkedin:"http://www.linkedin.com/in/aamir-raza-a914001b4786aamir23"}]
 },
 {
-  post:"Technical Coordinator",
-  member:[{name:"Aditya Singh",linkedin:"https://www.linkedin.com/in/aditya-singh-9914b61a4"},
-  {name:"Harsh Tripathi",linkedin:"https://www.linkedin.com/in/harsh-tripathi-404993199/"},
-  {name:"Mahavadi Sri Shashank",linkedin:"https://www.linkedin.com/in/mahavadi-sri-shashank-a82ab3207"},
+  post:"Program Director",
+  member:[{name:"Rohan Sahana",linkedin:"https://www.linkedin.com/in/sanyam-jain-13247a1a0/"},
+  {name:"Subham Surana",linkedin:"https://www.linkedin.com/in/subham-surana-born-to-rule/"},
+  {name:"Abhinav Pratap Singh",linkedin:"https://www.linkedin.com/in/abhinav-pratap-singh-2357871b3"}]
+},
+{
+  post:"Workshop Head",
+  member:[{name:"HarshVardhan Agarwal",linkedin:"https://www.linkedin.com/in/harshvardhan-agrawal-b407001a1"},
   {name:"Saket Mishra",linkedin:"https://www.linkedin.com/in/saket-mishra-314a2a212/"}]
 },
 {
+  post:'Design Head',
+  member:[  {name:"Pinky Kumari Munda",linkedin:"https://www.linkedin.com/in/pinky-kumari-munda-008741209"},
+  {name:"Swapnil Goyal",linkedin:"https://www.linkedin.com/in/swapnil-goyal-1010"}]
+},
+{
+ post:'Web head',
+ member:[{name:'Kshitij Sharma',linkedin:'https://www.linkedin.com/in/kshitij-sharma-a53ab119b/'},
+  {name:'Vaibhav Mishra',linkedin:'https://www.linkedin.com/in/vaibhav-mishra-7006911b5/'}]
+},
+{
+  post:"Executive Member",
+  member:[{name:'Aprajita Kumari',linkedin:'https://www.linkedin.com/mwlite/in/aprajita-kumari-6b1b571b0'},
+  {name:"Pranav Prakhar",linkedin:"https://www.linkedin.com/in/pranav-prakhar"},
+  {name:'Abhishek Raj',linkedlin:"https://www.linkedin.com/in/abhishek-raj-a852aa1b0"}]
+}];
+
+
+
+
+//************************k20*********************************** */
+
+const membersk20=[
+  {
+  post:"General Secretary",
+  member:[{name:"Rituraj Das",linkedin:"https://www.linkedin.com/in/rituraj-007/"}]
+},
+{
+  post:"Joint Secretary",
+  member:[{name:"Kajal Kiran",linkedin:"https://www.linkedin.com/in/kajal-kiran-4a82b5217/"},
+  {name: "Aryan Goel",linkedin:"https://www.linkedin.com/in/aryan-goel-b279581b2/"}]
+},
+{
+  post:"Treasurer",
+  member:[{name:"Swarnim Kamal",linkedin:"https://www.linkedin.com/in/swarnim-kamal-412338209/"},
+  {name: "Manda Simrita",linkedin:"https://www.linkedin.com/in/simrita-m-b37a22203" }]
+},
+{
+  post:"Technical Coordinator",
+  member:[{name:"Nishant Biyani",linkedin:"https://www.linkedin.com/mwlite/in/nishant-biyani-5b00351ba"},
+  {name:"Soumak Nandi",linkedin:"https://www.linkedin.com/in/soumak-nandi-29672120a"},
+  {name:"Souharadya Chatterjee",linkedin:"https://www.linkedin.com/in/souhardya-chatterjee-b2648b205/"}]
+},
+{
   post:"Web Coordinator",
-  member:[{name:"Kshitij Sharma",linkedin:"https://www.linkedin.com/in/kshitij-sharma-a53ab119b/"},
-  {name:"Vaibhav Mishra",linkedin:"https://www.linkedin.com/in/vaibhav-mishra-7006911b5/"},
-  {name:"Pranav Prakhar",linkedin:"https://www.linkedin.com/in/pranav-prakhar"}]
+  member:[{name:"Aditya Aryam",linkedin:"https://www.linkedin.com/in/aditya-aryam-59b188202/"}]
 },
 {
   post:"Events Coordinator",
-  member:[{name:"Abhinav Pratap Singh",linkedin:"https://www.linkedin.com/in/abhinav-pratap-singh-2357871b3"},
-  {name:"Aamir Raza",linkedin:"https://www.linkedin.com/in/aamir-raza-a914001b4/"},
-  {name:"Harshvardhan Agarwal",linkedin:"https://www.linkedin.com/in/harshvardhan-agrawal-b407001a1"},
-  {name:"Abhishek Raj",linkedin:"https://www.linkedin.com/in/abhishek-raj-a852aa1b0"},]
+  member:[{name:"Anshu Aman",linkedin:"https://www.linkedin.com/in/anshu-aman-270924206"},
+  {name:"Anshu Gaurav",linkedin:"https://www.linkedin.com/in/anshu-gaurav"},
+  {name:"Lakshya Singhal",linkedin:"https://www.linkedin.com/in/lakshya-singhal-07b5b9144/"},
+  ]
 },
 {
   post:"Design and Content Team",
-  member:[{name:"Pinky Kumari Munda",linkedin:"https://www.linkedin.com/in/pinky-kumari-munda-008741209"},
-  {name:"Swapnil Goyal",linkedin:"https://www.linkedin.com/in/swapnil-goyal-1010"},
-  {name:"Aprajita Kumari",linkedin:"https://www.linkedin.com/mwlite/in/aprajita-kumari-6b1b571b0"}]
+  member:[{name:"Amrendra Kumar",linkedin:"https://www.linkedin.com/in/amrendra-kumar-9977b3201/"},
+  {name:"Shubham Agarwal",linkedin:"https://www.linkedin.com/mwlite/in/shubham-agrawal-489a2a1bb"},
+  {name:"Abhinav Anand",linkedin:"https://www.linkedin.com/in/abhinav-anand-188066219/"}]
 }];
 
 const campusAmbassadors=[{
@@ -127,4 +181,6 @@ const campusAmbassadors=[{
   ]
 }];
 
-export {membersk18 , membersk19,campusAmbassadors};
+
+
+export {membersk20 , membersk19,campusAmbassadors};
