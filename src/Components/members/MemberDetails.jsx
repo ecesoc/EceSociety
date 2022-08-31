@@ -86,7 +86,7 @@
 const membersk19=[
   {
   post:"President",
-  member:[{name:'KUMAR UTKARSH',linkedin:"https://www.linkedin.com/in/kumar-utkarsh-7336291a0"}]
+  member:[{name:'Kumar Utkarsh',linkedin:"https://www.linkedin.com/in/kumar-utkarsh-7336291a0"}]
 },
 {
   post:"Vice President",
@@ -95,7 +95,7 @@ const membersk19=[
 },
 {
   post:"Technical Head",
-  member:[ {name:"Harsh Tripathi",linkedin:"https://www.linkedin.com/in/harsh-tripathi-404993199/",ext:'.JPG'},
+  member:[ {name:"Harsh Tripathi",linkedin:"https://www.linkedin.com/in/harsh-tripathi-404993199/"},
   {name:"Mahavadi Shri Shashank",linkedin:"https://www.linkedin.com/in/mahavadi-sri-shashank-a82ab3207"},
   {name:"Amir Raza",linkedin:"http://www.linkedin.com/in/aamir-raza-a914001b4786aamir23"}]
 },
@@ -107,7 +107,7 @@ const membersk19=[
 },
 {
   post:"Workshop Head",
-  member:[{name:"HarshVardhan Agarwal",linkedin:"https://www.linkedin.com/in/harshvardhan-agrawal-b407001a1"},
+  member:[{name:"Harshvardhan Agarwal",linkedin:"https://www.linkedin.com/in/harshvardhan-agrawal-b407001a1"},
   {name:"Saket Mishra",linkedin:"https://www.linkedin.com/in/saket-mishra-314a2a212/"}]
 },
 {
