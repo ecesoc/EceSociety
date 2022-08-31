@@ -21,15 +21,9 @@ export default function Techathon() {
           alt="img"
         />
         <div style={{ textAlign: "right", marginRight: "4%" }}>
-          <a
-            href="https://dare2compete.com/o/LWemDBl?refId=sI6ijqy"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button type="submit" className="register-btn">
-              REGISTER NOW!!
-            </button>
-          </a>
+          <button type="submit" className="register-btn">
+            Registrations Closed!
+          </button>
         </div>
         <div className="techathon-intro">
           <span className="make-it-large">
@@ -55,7 +49,7 @@ export default function Techathon() {
       <TimeLine />
       <CustomHr />
       <Description />
-      <CustomHr /> 
+      <CustomHr />
       <Prizes />
       <CustomHr />
       <Guest />

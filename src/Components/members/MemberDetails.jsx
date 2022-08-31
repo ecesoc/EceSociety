@@ -102,7 +102,7 @@ const membersk19=[
 {
   post:"Program Director",
   member:[{name:"Rohan Sahana",linkedin:"https://www.linkedin.com/in/sanyam-jain-13247a1a0/"},
-  {name:"Subham Surana",linkedin:"https://www.linkedin.com/in/subham-surana-born-to-rule/"},
+  {name:"Subham Surana",linkedin:"https://www.linkedin.com/in/subham-surana/"},
   {name:"Abhinav Pratap Singh",linkedin:"https://www.linkedin.com/in/abhinav-pratap-singh-2357871b3"}]
 },
 {
@@ -117,7 +117,7 @@ const membersk19=[
 },
 {
  post:'Web head',
- member:[{name:'Kshitij Sharma',linkedin:'https://www.linkedin.com/in/kshitij-sharma-a53ab119b/'},
+ member:[{name:'Kshitij Sharma',linkedin:'https://www.linkedin.com/in/kshitijsharma19/'},
   {name:'Vaibhav Mishra',linkedin:'https://www.linkedin.com/in/vaibhav-mishra-7006911b5/'}]
 },
 {

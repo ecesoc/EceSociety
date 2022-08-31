@@ -1,16 +1,16 @@
+
 body {
   font-family: "Lato", sans-serif;
   color: #666;
 }
 
-img {
+.person-pic {
   transition: all 1s;
   border: 3px #696e6a solid;
 }
 
-img:hover {
+.person-pic:hover {
   transform: scale(1.1);
-  cursor: pointer;
 }
 
 hr {
@@ -23,19 +23,12 @@ p {
   padding-left: 3%;
 }
 
-.row,
+
 .post-title {
   margin: 3% 2% 0 3%;
+
 }
 
-h5,
-h3,
-h6,
-h4,
-h1,
-h2 {
-  text-align: justify;
-}
 
 /************Loader********/
 .loader-page {
@@ -111,7 +104,6 @@ nav button {
   transform: scale(1.2);
   box-shadow: 0 0 4px 3px white;
   border-radius: 10%;
-  cursor: pointer;
 }
 
 header {
@@ -225,7 +217,6 @@ header p:first-child {
 
 .ctr:hover {
   color: #4b4f57;
-  cursor: pointer;
 }
 .ctr:active {
   color: #191919;
@@ -243,10 +234,4 @@ header p:first-child {
 .contents {
   display: flex;
   flex-wrap: wrap;
-}
-.change-member:hover{
-  cursor: pointer;
-}
-.event-List:hover{
-  cursor: pointer;
 }
