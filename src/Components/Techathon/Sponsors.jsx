@@ -62,12 +62,3 @@ export default function Sponsors() {
     </section>
   );
 }
-{
-  /*<div
-              className="col-lg-2 col-md-3 col-sm-4"
-              style={{ textAlign: "center" }}
-              key={index}
-            >
-
-            </div>*/
-}
