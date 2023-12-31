@@ -83,56 +83,56 @@
 //***************k19********************** */
 
 
-const membersk19=[
-  {
-  post:"President",
-  member:[{name:'Kumar Utkarsh',linkedin:"https://www.linkedin.com/in/kumar-utkarsh-7336291a0"}]
-},
-{
-  post:"Vice President",
-  member:[{name:"Hemanshu Sogra",linkedin:"https://www.linkedin.com/in/hemanshu-sogra-111b551a2/"},
-{name:"Akshat Jain",linkedin:"https://www.linkedin.com/in/akshat-jain-0520"},]
-},
-{
-  post:"Technical Head",
-  member:[ {name:"Harsh Tripathi",linkedin:"https://www.linkedin.com/in/harsh-tripathi-404993199/"},
-  {name:"Mahavadi Shri Shashank",linkedin:"https://www.linkedin.com/in/mahavadi-sri-shashank-a82ab3207"},
-  {name:"Amir Raza",linkedin:"http://www.linkedin.com/in/aamir-raza-a914001b4786aamir23"}]
-},
-{
-  post:"Program Director",
-  member:[{name:"Rohan Sahana",linkedin:"https://www.linkedin.com/in/sanyam-jain-13247a1a0/"},
-  {name:"Subham Surana",linkedin:"https://www.linkedin.com/in/subham-surana/"},
-  {name:"Abhinav Pratap Singh",linkedin:"https://www.linkedin.com/in/abhinav-pratap-singh-2357871b3"}]
-},
-{
-  post:"Workshop Head",
-  member:[{name:"Harshvardhan Agarwal",linkedin:"https://www.linkedin.com/in/harshvardhan-agrawal-b407001a1"},
-  {name:"Saket Mishra",linkedin:"https://www.linkedin.com/in/saket-mishra-314a2a212/"}]
-},
-{
-  post:'Design Head',
-  member:[  {name:"Pinky Kumari Munda",linkedin:"https://www.linkedin.com/in/pinky-kumari-munda-008741209"},
-  {name:"Swapnil Goyal",linkedin:"https://www.linkedin.com/in/swapnil-goyal-1010"}]
-},
-{
- post:'Web head',
- member:[{name:'Kshitij Sharma',linkedin:'https://www.linkedin.com/in/kshitijsharma19/'},
-  {name:'Vaibhav Mishra',linkedin:'https://www.linkedin.com/in/vaibhav-mishra-7006911b5/'}]
-},
-{
-  post:"Executive Member",
-  member:[{name:'Aprajita Kumari',linkedin:'https://www.linkedin.com/mwlite/in/aprajita-kumari-6b1b571b0'},
-  {name:"Pranav Prakhar",linkedin:"https://www.linkedin.com/in/pranav-prakhar"},
-  {name:'Abhishek Raj',linkedlin:"https://www.linkedin.com/in/abhishek-raj-a852aa1b0"}]
-}];
+// const membersk19=[
+//   {
+//   post:"President",
+//   member:[{name:'Kumar Utkarsh',linkedin:"https://www.linkedin.com/in/kumar-utkarsh-7336291a0"}]
+// },
+// {
+//   post:"Vice President",
+//   member:[{name:"Hemanshu Sogra",linkedin:"https://www.linkedin.com/in/hemanshu-sogra-111b551a2/"},
+// {name:"Akshat Jain",linkedin:"https://www.linkedin.com/in/akshat-jain-0520"},]
+// },
+// {
+//   post:"Technical Head",
+//   member:[ {name:"Harsh Tripathi",linkedin:"https://www.linkedin.com/in/harsh-tripathi-404993199/"},
+//   {name:"Mahavadi Shri Shashank",linkedin:"https://www.linkedin.com/in/mahavadi-sri-shashank-a82ab3207"},
+//   {name:"Amir Raza",linkedin:"http://www.linkedin.com/in/aamir-raza-a914001b4786aamir23"}]
+// },
+// {
+//   post:"Program Director",
+//   member:[{name:"Rohan Sahana",linkedin:"https://www.linkedin.com/in/sanyam-jain-13247a1a0/"},
+//   {name:"Subham Surana",linkedin:"https://www.linkedin.com/in/subham-surana/"},
+//   {name:"Abhinav Pratap Singh",linkedin:"https://www.linkedin.com/in/abhinav-pratap-singh-2357871b3"}]
+// },
+// {
+//   post:"Workshop Head",
+//   member:[{name:"Harshvardhan Agarwal",linkedin:"https://www.linkedin.com/in/harshvardhan-agrawal-b407001a1"},
+//   {name:"Saket Mishra",linkedin:"https://www.linkedin.com/in/saket-mishra-314a2a212/"}]
+// },
+// {
+//   post:'Design Head',
+//   member:[  {name:"Pinky Kumari Munda",linkedin:"https://www.linkedin.com/in/pinky-kumari-munda-008741209"},
+//   {name:"Swapnil Goyal",linkedin:"https://www.linkedin.com/in/swapnil-goyal-1010"}]
+// },
+// {
+//  post:'Web head',
+//  member:[{name:'Kshitij Sharma',linkedin:'https://www.linkedin.com/in/kshitijsharma19/'},
+//   {name:'Vaibhav Mishra',linkedin:'https://www.linkedin.com/in/vaibhav-mishra-7006911b5/'}]
+// },
+// {
+//   post:"Executive Member",
+//   member:[{name:'Aprajita Kumari',linkedin:'https://www.linkedin.com/mwlite/in/aprajita-kumari-6b1b571b0'},
+//   {name:"Pranav Prakhar",linkedin:"https://www.linkedin.com/in/pranav-prakhar"},
+//   {name:'Abhishek Raj',linkedlin:"https://www.linkedin.com/in/abhishek-raj-a852aa1b0"}]
+// }];
 
 
 
 
 //************************k20*********************************** */
 
-const membersk20=[
+const membersk21=[
   {
   post:"General Secretary",
   member:[{name:"Rituraj Das",linkedin:"https://www.linkedin.com/in/rituraj-007/"}]
@@ -180,7 +180,46 @@ const campusAmbassadors=[{
   {name: "Saurav Karmakar", linkedin: "https://www.linkedin.com/in/sauravkarmakar/"}
   ]
 }];
+/*********************************k20***********************************/ 
+const membersk20=[
+  {
+  post:"President",
+  member:[{name:"Rituraj Das",linkedin:"https://www.linkedin.com/in/rituraj-007/"}]
+},
+{
+  post:"Vice President",
+  member:[{name:"Kajal Kiran",linkedin:"https://www.linkedin.com/in/kajal-kiran-4a82b5217/"},
+  {name:"Nishant Biyani",linkedin:"https://www.linkedin.com/mwlite/in/nishant-biyani-5b00351ba"},]
+},
+{
+  post:" Core Technical Head",
+  member:[ {name:"Soumak Nandi",linkedin:"https://www.linkedin.com/in/soumak-nandi-29672120a"}]
+},
+{
+  post:"Program Director",
+  member:[{name: "Manda Simrita",linkedin:"https://www.linkedin.com/in/simrita-m-b37a22203" },
+  {name:"Shubham Agarwal",linkedin:"https://www.linkedin.com/mwlite/in/shubham-agrawal-489a2a1bb"}]
+},
+{
+  post:"Event Head",
+  member:[{name: "Aryan Goel",linkedin:"https://www.linkedin.com/in/aryan-goel-b279581b2/"},]
+},
+{
+  post:'Design Head',
+  member:[  {name:"Amrendra Kumar",linkedin:"https://www.linkedin.com/in/amrendra-kumar-9977b3201/"},
+  {name:"Anshu Aman",linkedin:"https://www.linkedin.com/in/anshu-aman-270924206"},]
+},
+{
+ post:'Web Technical head',
+ member:[{name:"Swarnim Kamal",linkedin:"https://www.linkedin.com/in/swarnim-kamal-412338209/"},]
+},
+{
+  post:"Executive Member",
+  member:[{name:"Anshu Gaurav",linkedin:"https://www.linkedin.com/in/anshu-gaurav"},
+  {name:"Souharadya Chatterjee",linkedin:"https://www.linkedin.com/in/souhardya-chatterjee-b2648b205/"}]
+}];
 
 
 
-export {membersk20 , membersk19,campusAmbassadors};
+
+export {membersk21 , membersk20,campusAmbassadors};
