@@ -135,41 +135,49 @@
 const membersk21=[
   {
   post:"General Secretary",
-  member:[{name:"Rituraj Das",linkedin:"https://www.linkedin.com/in/rituraj-007/"}]
+  member:[{name:"Harsh Verma",linkedin:""}]
 },
 {
   post:"Joint Secretary",
-  member:[{name:"Kajal Kiran",linkedin:"https://www.linkedin.com/in/kajal-kiran-4a82b5217/"},
-  {name: "Aryan Goel",linkedin:"https://www.linkedin.com/in/aryan-goel-b279581b2/"}]
+  member:[{name:"Shreyansh Kumar",linkedin:"https://www.linkedin.com/in/shreyansh-kumar-49911b232/"},
+  {name: "Saurabh Kumar",linkedin:"https://www.linkedin.com/in/aryan-goel-b279581b2/"}]
 },
 {
   post:"Treasurer",
-  member:[{name:"Swarnim Kamal",linkedin:"https://www.linkedin.com/in/swarnim-kamal-412338209/"},
-  {name: "Manda Simrita",linkedin:"https://www.linkedin.com/in/simrita-m-b37a22203" }]
+  member:[{name:"Reyanul Abdin",linkedin:""},
+  {name: "Shovic Dhar",linkedin:"" }]
 },
 {
-  post:"Technical Coordinator",
-  member:[{name:"Nishant Biyani",linkedin:"https://www.linkedin.com/mwlite/in/nishant-biyani-5b00351ba"},
-  {name:"Soumak Nandi",linkedin:"https://www.linkedin.com/in/soumak-nandi-29672120a"},
-  {name:"Souharadya Chatterjee",linkedin:"https://www.linkedin.com/in/souhardya-chatterjee-b2648b205/"}]
+  post:"Technical Head",
+  member:[{name:"Ritik Kumar",linkedin:""},
+  // {name:"Abhinav Kumar Thakur",linkedin:"https://www.linkedin.com/in/soumak-nandi-29672120a"},
+]
 },
 {
   post:"Web Coordinator",
-  member:[{name:"Aditya Aryam",linkedin:"https://www.linkedin.com/in/aditya-aryam-59b188202/"}]
+  member:[{name:"Ankit Mishra",linkedin:"https://www.linkedin.com/in/ankit-mishra-904182229?utm_source=share&&utm_campaign=share_via&&utm_content=profile&&utm_medium=android_app"}]
 },
 {
   post:"Events Coordinator",
-  member:[{name:"Anshu Aman",linkedin:"https://www.linkedin.com/in/anshu-aman-270924206"},
-  {name:"Anshu Gaurav",linkedin:"https://www.linkedin.com/in/anshu-gaurav"},
-  {name:"Lakshya Singhal",linkedin:"https://www.linkedin.com/in/lakshya-singhal-07b5b9144/"},
-  ]
+  member:[{name:"Shivam Kumar",linkedin:"https://www.linkedin.com/in/shivam-kumar-a78829285?utm_source=share&&utm_campaign=share_via&&utm_content=profile&&utm_medium=android_app"},
+  {name:"Honey Pradhan",linkedin:"https://www.linkedin.com/in/honey-pradhan-806678236?utm_source=share&&utm_campaign=share_via&&utm_content=profile&&utm_medium=android_app"}]
 },
 {
-  post:"Design and Content Team",
-  member:[{name:"Amrendra Kumar",linkedin:"https://www.linkedin.com/in/amrendra-kumar-9977b3201/"},
-  {name:"Shubham Agarwal",linkedin:"https://www.linkedin.com/mwlite/in/shubham-agrawal-489a2a1bb"},
-  {name:"Abhinav Anand",linkedin:"https://www.linkedin.com/in/abhinav-anand-188066219/"}]
-}];
+  post:"Design Head",
+  member:[{name:"Jhil Kumari",linkedin:""},
+  {name:"Abhishek Mishra",linkedin:"https://www.linkedin.com/in/abhishek-mishra-b7499a237?utm_source=share&&utm_campaign=share_via&&utm_content=profile&&utm_medium=android_app"}]
+},
+{
+  post:"Content Head",
+  member:[{name:"Gautam Bhaskar",linkedin:"https://www.linkedin.com/in/gautam-bhaskar-47467a164?utm_source=share&&utm_campaign=share_via&&utm_content=profile&&utm_medium=android_app"},
+  // {name:"Abhinav Kumar Shukla",linkedin:""},
+ ]
+},
+{
+  post:"Publicity Head",
+  member:[{name:"Akshar Dubey",linkedin:""},
+  ]
+},];
 
 const campusAmbassadors=[{
   post: "Campus Ambassador",
