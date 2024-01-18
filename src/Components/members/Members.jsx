@@ -1,6 +1,6 @@
 //jshint esversion:6
 import React, { useState } from "react";
-import { membersk20, membersk19, campusAmbassadors } from "./MemberDetails";
+import { membersk21, membersk20, campusAmbassadors } from "./MemberDetails";
 import Image from "../Image";
 import "./styles.css";
 
@@ -35,11 +35,11 @@ function member({ post, member }, index) {
 }
 
 function Members() {
-  function changeToK19() {
+  function changeToK20() {
     setYear(1);
   }
 
-  function changeToK20() {
+  function changeToK21() {
     setYear(2);
   }
   function changeTocamp() {
@@ -48,24 +48,24 @@ function Members() {
 
   let [isk18, setYear] = useState(1); // by default final years
   // const k18 = membersk18.map(member);
-  const k19 = membersk19.map(member);
   const k20 = membersk20.map(member);
+  const k21 = membersk21.map(member);
   const camp = campusAmbassadors.map(member);
 
   return (
     <div className="executive-Body">
       <div className="change-member">
         <span
-          onClick={changeToK19}
+          onClick={changeToK20}
           className={isk18 === 1 ? "changeMember" : null}
         >
-          EXECUTIVE BODY K19
+          EXECUTIVE BODY K20
         </span>
         <span
-          onClick={changeToK20}
+          onClick={changeToK21}
           className={isk18 === 2 ? "changeMember" : null}
         >
-          EXECUTIVE BODY K20
+          EXECUTIVE BODY K21
         </span>
         <span
           onClick={changeTocamp}
@@ -74,7 +74,7 @@ function Members() {
           CAMPUS AMBASSADORS
         </span>
       </div>
-      {isk18 === 1 ? k19 : isk18 === 2 ? k20 : camp}
+      {isk18 === 1 ? k20 : isk18 === 2 ? k21 : camp}
     </div>
   );
 }
